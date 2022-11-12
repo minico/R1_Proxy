@@ -5,16 +5,22 @@ use App\Provider\Music\Netease;
 use App\Util\DataUtil;
 use App\Provider\Music\Migo;
 use App\Provider\Music\Format;
+use App\Provider\Music\NasMedia;
+
 
 class MusicProvider
 {
     private $dataUtil;
 
     private $keyword;
+    
+    private $nasMedia;
 
     public function __construct(DataUtil $dataUtil)
     {
         $this->dataUtil = $dataUtil;
+        $this->nasMedia = new NasMedia();
+        $this->nasMedia->loadPlayList();
     }
 
     public function isMusic() {
@@ -47,6 +53,43 @@ class MusicProvider
             return true;
         }
         return false;
+    }
+    
+    
+    public function processNasCmd() {
+        $body = $this->dataUtil->getBody();
+	if (!isset($body['semantic'])) {
+	  echo "processNasCmd, has no semantic body" . PHP_EOL;
+	  $this->dataUtil->generateCodeBody();
+	  return true;
+	}
+
+        $format = new Format();
+        $format->setSemantic($body['semantic']);
+        
+        $res = $this->nasMedia->processCtrlCommand($body['text'], $format);
+        if ($res) {
+            $this->dataUtil->setBody($format->getData());
+        }
+        return $res;
+    }
+
+    
+    public function searchNasMedia() {
+        $body = $this->dataUtil->getBody();
+	if (!isset($body['semantic'])) {
+	  echo "processNasMedia, has no semantic body" . PHP_EOL;
+	  return false;
+	}
+
+        $format = new Format();
+        $format->setSemantic($body['semantic']);
+
+        $res = $this->nasMedia->processPlayCommand($body['text'], $format);
+        if ($res) {
+            $this->dataUtil->setBody($format->getData());
+        }
+        return $res;
     }
 
     public function search() {

@@ -32,13 +32,25 @@ function client ($server, $fd, $data) {
     }
     $client->send($data);
     $recv =  $client->recv();
-    // file_put_contents('./recv.log', $recv, FILE_APPEND);
-     echo $recv;
+    file_put_contents('./recv.log', $recv, FILE_APPEND);
+    echo $recv;
     $dataUtil = new DataUtil($recv);
     $musicProvider = new MusicProvider($dataUtil);
+    
+    if (!$musicProvider->processNasCmd()) {
+        if (!$musicProvider->searchNasMedia()) {
+            if ($musicProvider->isMusic()) {
+                $musicProvider->search();
+            }
+        }
+    }
+
+    
+    /*
     if ($musicProvider->isMusic()) {
         $musicProvider->search();
-    }
+    }*/
+
     $data = $dataUtil->build();
     echo $data;
     $server->send($fd, $data);
