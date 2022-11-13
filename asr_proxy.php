@@ -41,13 +41,8 @@ function client($server, $fd, $data)
 
     $recv = $client->recv();
 
-    file_put_contents('./recv.log', "recv data from asr server:\n", FILE_APPEND);
-    file_put_contents('./recv.log', $recv, FILE_APPEND);
-    file_put_contents('./recv.log', "\n\n", FILE_APPEND);
-    echo "recv data from asr server:\n";
-    echo $recv . "\n\n";
+    Logs::log("<<<<<< recv data from asr server:\n" .$recv);
 
-    //$musicProvider = new MusicProvider();
     global $musicProvider;
     $musicProvider->onRecvData($recv);
 
@@ -66,12 +61,7 @@ function client($server, $fd, $data)
 
     $data = $musicProvider->buildData();
 
-    echo "send data to R1:\n";
-    echo $data . "\n\n";
-
-    file_put_contents('./recv.log', "send data to R1:\n", FILE_APPEND);
-    file_put_contents('./recv.log', $data, FILE_APPEND);
-    file_put_contents('./recv.log', "\n\n", FILE_APPEND);
+    Logs::log(">>>>>>>> send data to R1:\n" . $data);
 
     $server->send($fd, $data);
 

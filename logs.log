@@ -1,32 +1,2664 @@
-server listened on port 80
-11-13 08:20:54.773590server listened on port 80
-[11-13 08:21:50.746302]    server listened on port 80
-11-13 08:24:22.540server listened on port 80
-[11-13 08:25:35.871]	server listened on port 80
-[11-13 08:25:54.511]server listened on port 80
-[11-13 08:26:02.175] server listened on port 80
-[11-13 09:11:54.420] server listened on port 80
-[11-13 09:34:29.704] server listened on port 80
-[11-13 09:38:21.459] server listened on port 80
-[11-13 09:39:08.759] server listened on port 80
-[11-13 09:47:18.216] server listened on port 80
-[11-13 09:48:00.874] server listened on port 80
-[11-13 09:55:57.744] server listened on port 80
-[11-13 04:47:53.132] server listened on port 80
-[11-13 05:05:13.908] server listened on port 80
-[11-13 05:08:06.459] server listened on port 80
-[11-13 05:24:59.287] server listened on port 80
-[11-13 05:31:58.400] server listened on port 80
-[11-13 05:40:19.440] server listened on port 80
-[11-13 05:40:21.503] server listened on port 80
-[11-13 05:47:56.689] server listened on port 80
-[11-13 05:50:49.352] server listened on port 80
-[11-13 05:51:14.744] server listened on port 80
-[11-13 05:52:06.251] server listened on port 80
-[11-13 05:57:52.244] server listened on port 80
-[11-13 05:59:10.681] server listened on port 80
-[11-13 08:13:13.220] server listened on port 80
-[11-13 08:15:09.431] server listened on port 80
-[11-13 08:19:43.550] server listened on port 80
-[11-13 08:23:22.657] server listened on port 80
-[11-13 08:26:41.383] server listened on port 80
+[11-13 08:35:46.954] server listened on port 80
+[11-13 08:36:38.269] server listened on port 80
+[11-13 08:36:46.358] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"}}
+
+[11-13 08:36:46.359] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":[],"returnCode":609,"message":"http post reuqest error"}}
+
+[11-13 08:36:46.761] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:46.762] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:47.064] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:47.065] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:47.349] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:47.349] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:47.713] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:47.713] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:48.006] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:48.006] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:48.389] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: w
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:48.389] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: w
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:48.575] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: x
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:48.575] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: x
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:48.930] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: y
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:48.930] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: y
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:49.226] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: z
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:49.226] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: z
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:49.450] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rq
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:49.451] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rq
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:49.714] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rr
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:49.714] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rr
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:49.999] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rs
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:49.999] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rs
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:50.321] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rt
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:50.321] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rt
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:50.626] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: ru
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:50.626] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: ru
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:50.916] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rv
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:50.916] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rv
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:51.227] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rw
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:51.227] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rw
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:51.482] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rx
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:51.482] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rx
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 0
+
+
+
+[11-13 08:36:51.794] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510
+RS: hHbHDiH
+PN: ry
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 501
+
+{"code":"ANSWER","originIntent":{"nluSlotInfos":[]},"history":"cn.yunzhisheng.chat","source":"krc","uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"},"asr_recongize":"播放孤勇者。","rc":0,"general":{"style":"CHAT_SENTENCE","text":"不定期播放"},"returnCode":0,"audioUrl":"http://asrv3.hivoice.cn/trafficRouter/r/rHD4dC","retTag":"nlu","service":"cn.yunzhisheng.chat","nluProcessTime":"271","text":"播放孤勇者","responseId":"2885595055124335be6d259ad0879bbc"}
+
+[11-13 08:36:53.469] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510
+RS: hHbHDiH
+PN: ry
+Date: 
+Server: 
+SID: SxsQNOxRNyONPRrRytRvysssRsRRwrRS
+Content-Length: 9107
+
+{"semantic":{"intent":{"artist":"游鸿明","keyword":"游鸿明"}},"code":"SEARCH_CATEGORY","data":{"result":{"count":20,"musicinfo":[{"id":1289263,"errorCode":0,"duration":8559194,"lyric":"","album":"孤勇者","title":"孤勇者","artist":"陈奕迅","hdImgUrl":"http://p3.music.126.net/aG5zqxkBRfLiV7A8W0iwgA==/109951166702962263.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113210152/df5b7d68acc5698198d285c7d8d60b3f/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/19896402574/2097/4c8f/78b7/9f758356cd1a5e135c711036c418d7b0.mp3"},{"id":7181980,"errorCode":0,"duration":3384975,"lyric":"","album":"孤勇者 (Live版)","title":"孤勇者 (Live版)","artist":"陈奕迅","hdImgUrl":"http://p3.music.126.net/OrHXw4pKobVZlAjbVal9dg==/109951167916394562.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113210152/f95691eccf5b9793ead57d89c2cbff6a/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/18547355472/14c7/d408/849b/2fc1e5e1776d5b7297be4f6a86904706.mp3"},{"id":2912368,"errorCode":0,"duration":800891,"lyric":"","album":"","title":"孤勇者 (Live)","artist":"宋亚轩","hdImgUrl":"http://p4.music.126.net/qRroCJ3aj8tgwCRbzYuuHg==/109951167356886704.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113210152/bbd74994e0d047225f9204f1f7d8bfe4/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14188153107/33db/4ff6/dc99/a852de0c754d1debc4a92b80ced0ade5.mp3"},{"id":5200443,"errorCode":0,"duration":338899,"lyric":"","album":"肖恩作品集","title":"孤勇者 (英文版)","artist":"肖恩Shaun Gibson","hdImgUrl":"http://p3.music.126.net/qiFPGAOvWiLJ-qZoq1ABtw==/109951167810861521.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113210152/0be92bcb19c196b2d3a73e8bfca13145/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/17803118709/b982/f459/4940/e3dccf16fe31d8df43852ec3b92d1685.mp3"},{"id":5510414,"errorCode":0,"duration":7741080,"lyric":"","album":"消愁","title":"孤勇者（cover：陈奕迅）","artist":"SsSs","hdImgUrl":"http://p3.music.126.net/xgTI__xYNPYtD6afIEvtWA==/109951167916961444.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113210152/a761cb39b77744c2153ab4dc93e7e09e/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/19518974715/0862/01e2/59c8/32165528f1bc36db8eda32725c652722.mp3"},{"id":1151041,"errorCode":0,"duration":742354,"lyric":"","album":"一起吹过晚风的街","title":"孤勇者 (DJ热播)","artist":"苏亦洋","hdImgUrl":"http://p4.music.126.net/VKIA8OgkD-i3MENliNFlIg==/109951167848356052.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113210152/635966e3d052dde901bfd2750a9f55df/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/18499661596/a294/24b2/0efa/27a38fabdf8c827696f29b32d489a075.mp3"},{"id":1595561,"errorCode":0,"duration":7448880,"lyric":"","album":"孤勇者-钢琴版","title":"孤勇者-钢琴版","artist":"Music YaYa","hdImgUrl":"http://p4.music.126.net/jL8zxKo8zAQ9dKu0vpHr6A==/109951167499280935.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113210152/d13a28f5061b282049509a617b52be97/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14795119657/5a50/e720/7ee4/6c0a0097c71e8a765deea21c08585ed0.mp3"},{"id":44076,"errorCode":0,"duration":9333406,"lyric":"","album":"「循梦」LIVE音频","title":"孤勇者 (Live)","artist":"张真源","hdImgUrl":"http://p4.music.126.net/lQ1w_G1VYx66SwEH5porQg==/109951167571600319.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113210152/414f36f0d48bb5ee77ebd61841626788/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/15128526656/0448/9afd/4cf7/02eb4c504958e53b1e7de14be4a8d9a5.mp3"},{"id":6531895,"errorCode":0,"duration":1149813,"lyric":"","album":"孤勇者","title":"孤勇者 最新版","artist":"tmnn","hdImgUrl":"http://p4.music.126.net/2nHUMyOKukUKfALfD6K8sg==/109951167049916075.jpg","isCollected":false,"url":"http://m10.music.126.net/20221113210152/d1b5d46fe3bfcb339359caabc586baa8/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/13294403417/b578/dc8e/a2f7/02cb4a3a76fc538b6c5cd85381a7ca14.mp3"},{"id":8029385,"errorCode":0,"duration":3597619,"lyric":"","album":"青春无悔","title":"孤勇者（女生版）","artist":"海涛","hdImgUrl":"http://p3.music.126.net/OH_gtR9I5XD2J_CHJRJa6Q==/109951166902913140.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113210152/979725058ee3c644621d581e42c08698/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/12577643629/0200/26c8/4239/b94153c608bdc3efc5b679e507c9418c.mp3"},{"id":4192532,"errorCode":0,"duration":4882942,"lyric":"","album":"孤勇者","title":"恶作剧（抖音DJ版）","artist":"忧龙","hdImgUrl":"http://p4.music.126.net/Y3TtaVQWemNne58LPELyCg==/109951167025660879.jpg","isCollected":false,"url":"http://m10.music.126.net/20221113210152/a04c8ad440338b7c49c2f692688b45b0/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/13285347926/e483/3a6f/d391/9f801d1c70b6ae298be29f3be1b0b4f6.mp3"},{"id":5821488,"errorCode":0,"duration":5085793,"lyric":"","album":"孤勇者 (鋼琴版)","title":"孤勇者 (鋼琴版)","artist":"Jesse T","hdImgUrl":"http://p3.music.126.net/FakrZ8mzqNf2n5DEHTnghw==/109951167219443250.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113210152/71427bc5bc05b797f160f166b2559392/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/13720139646/7381/03dc/f4f3/e059021346f51129c464bff36a01a256.mp3"},{"id":6025878,"errorCode":0,"duration":3364681,"lyric":"","album":"孤勇者 (粤语)","title":"孤勇者 (粤语)","artist":"罗格","hdImgUrl":"http://p4.music.126.net/1I29ktKdf2ch8DC41HiTyg==/109951167471499477.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113210152/a57990ef81e9a36c1527f0c54955ea7a/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14655042820/9db8/557d/5a46/87aec0a1993f34c1adc9c3367ad7e184.mp3"},{"id":9482994,"errorCode":0,"duration":2990424,"lyric":"","album":"F曲","title":"孤勇者（正式版）","artist":"梁颖伟","hdImgUrl":"http://p4.music.126.net/9KFE9V8m4dc1d5Od0VRELQ==/109951166796646875.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113210153/ab921f5e4bc52b86f8ef931264c1ab4e/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/10549585487/94a4/e9c7/66c0/f24ce4bbcc347eff6cccc55f373b0f9e.mp3"},{"id":8999168,"errorCode":0,"duration":4670602,"lyric":"","album":"九九","title":"孤勇者-九九","artist":"九九","hdImgUrl":"http://p3.music.126.net/Cqv9Mkpvolu92cA9zPK9Pw==/109951166957892772.jpg","isCollected":false,"url":"http://m10.music.126.net/20221113210153/22a7c479bec89b346649f87951aee3c9/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/13293876379/66a0/410a/167a/ff4a1f847303d7de381c059e13cd012e.mp3"},{"id":5886973,"errorCode":0,"duration":96315,"lyric":"","album":"风物之诗琴","title":"孤勇者 （原神镜花之琴）","artist":"川建国","hdImgUrl":"http://p4.music.126.net/Odjws7ezuPkLI_xYW4ub-w==/109951167580184098.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113210153/2efca3d034c453a85e631da29407a0a1/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/15514959426/c86c/f5a1/391e/7b2b661fdc0dd5a443eec6711be18265.mp3"},{"id":53386,"errorCode":0,"duration":3335904,"lyric":"","album":"孤勇者","title":"孤勇者","artist":"网虫","hdImgUrl":"http://p4.music.126.net/dJfx8A8wzl7FlS9SJADLPg==/109951166934314760.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113210153/5f9de4ef17e6f3ee521a1d79bc94cdd4/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/12413544622/e526/5abb/3f5d/259a169309e5c489e508c708ed92b3eb.mp3"},{"id":4894000,"errorCode":0,"duration":9508973,"lyric":"","album":"孤勇者 (粤语)","title":"孤勇者 伴奏 (粤语)","artist":"罗格","hdImgUrl":"http://p3.music.126.net/1I29ktKdf2ch8DC41HiTyg==/109951167471499477.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113210153/c9f3b893cb24ad57847c749a7cc43d35/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14655047439/e31c/6787/49ec/06229418f9d2abc93d2b2e71bd6ea90d.mp3"},{"id":1869179,"errorCode":0,"duration":3394471,"lyric":"","album":"孤勇者 (吉他弹唱版)","title":"孤勇者 (吉他弹唱版)","artist":"张可聿","hdImgUrl":"http://p4.music.126.net/qHvndpFXtGtLue3-0JLW4g==/109951166917720343.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113210153/278fa39e6d83065a70ec863c481b2820/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/12591160688/622f/751b/08ba/82368324716b9ba8a3da97a7c96cfcd8.mp3"},{"id":7633102,"errorCode":0,"duration":5257766,"lyric":"","album":"孤勇者","title":"孤勇者","artist":"小熊餅乾屋","hdImgUrl":"http://p3.music.126.net/MAnpURab8105otu0_D8pLA==/109951167380730320.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113210153/d25fb669af9aeab66c3881fdd3ca4a53/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14292899012/0b34/0982/7e1d/419ec714326a22be9352cf3ea90f6825.mp3"}],"totalTime":10,"pagesize":20,"errorCode":0,"page":"1","source":1,"dataSourceName":"我的音乐"}},"originIntent":{"nluSlotInfos":[]},"history":"cn.yunzhisheng.music","source":"nlu","uniCarRet":{"result":[],"returnCode":609,"message":"aios-home.hivoice.cn"},"asr_recongize":"孤勇者","rc":0,"general":{"actionAble":"true","quitDialog":"true","text":"孤勇者","type":"T"},"returnCode":0,"audioUrl":"http://asrv3.hivoice.cn/trafficRouter/r/wMgclE","retTag":"nlu","service":"cn.yunzhisheng.music","nluProcessTime":"106","text":"孤勇者","responseId":"e490d9576c5b438c8283a6e71cdba997"}
+
+[11-13 08:37:54.992] server listened on port 80
+[11-13 08:38:02.694] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"}}
+[11-13 08:38:02.695] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":[],"returnCode":609,"message":"http post reuqest error"}}
+[11-13 08:38:03.039] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:03.039] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:03.393] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:03.393] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:03.838] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:03.838] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:04.062] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:04.063] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:04.342] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:04.342] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:04.612] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: w
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:38:04.613] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: w
+Date: 
+Server: 
+SID: OvzqRuqyxxOOStvxwyqvvzzquuvRtRvx
+Content-Length: 0
+
+
+[11-13 08:50:35.646] server listened on port 80
+[11-13 08:50:57.443] server listened on port 80
+[11-13 08:51:09.415] server listened on port 80
+[11-13 08:51:09.418] play list downloaded successfully, total count:2973
+[11-13 08:51:09.418] history list loaded successfully, total count:5
+[11-13 08:51:09.418] favorite list loaded successfully, total count:3
+[11-13 08:51:13.259] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"}}
+[11-13 08:51:13.260] processNasCmd, has no semantic body
+[11-13 08:51:13.261] processNasMedia, has no semantic body
+[11-13 08:51:13.261] isMusic text:
+[11-13 08:51:13.261] isMusic false
+[11-13 08:51:13.262] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":[],"returnCode":609,"message":"http post reuqest error"}}
+[11-13 08:51:13.527] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:13.528] processNasCmd, has no semantic body
+[11-13 08:51:13.528] processNasMedia, has no semantic body
+[11-13 08:51:13.528] isMusic text:
+[11-13 08:51:13.528] isMusic false
+[11-13 08:51:13.528] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:13.848] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:13.849] processNasCmd, has no semantic body
+[11-13 08:51:13.849] processNasMedia, has no semantic body
+[11-13 08:51:13.849] isMusic text:
+[11-13 08:51:13.850] isMusic false
+[11-13 08:51:13.850] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:14.173] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:14.174] processNasCmd, has no semantic body
+[11-13 08:51:14.174] processNasMedia, has no semantic body
+[11-13 08:51:14.174] isMusic text:
+[11-13 08:51:14.174] isMusic false
+[11-13 08:51:14.174] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:14.606] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:14.606] processNasCmd, has no semantic body
+[11-13 08:51:14.606] processNasMedia, has no semantic body
+[11-13 08:51:14.607] isMusic text:
+[11-13 08:51:14.607] isMusic false
+[11-13 08:51:14.607] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:14.793] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:14.794] processNasCmd, has no semantic body
+[11-13 08:51:14.794] processNasMedia, has no semantic body
+[11-13 08:51:14.794] isMusic text:
+[11-13 08:51:14.794] isMusic false
+[11-13 08:51:14.794] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:15.081] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: w
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:15.082] processNasCmd, has no semantic body
+[11-13 08:51:15.082] processNasMedia, has no semantic body
+[11-13 08:51:15.082] isMusic text:
+[11-13 08:51:15.082] isMusic false
+[11-13 08:51:15.083] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: w
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:15.421] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: x
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:15.422] processNasCmd, has no semantic body
+[11-13 08:51:15.422] processNasMedia, has no semantic body
+[11-13 08:51:15.422] isMusic text:
+[11-13 08:51:15.422] isMusic false
+[11-13 08:51:15.422] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: x
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:15.598] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: y
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:15.599] processNasCmd, has no semantic body
+[11-13 08:51:15.600] processNasMedia, has no semantic body
+[11-13 08:51:15.600] isMusic text:
+[11-13 08:51:15.600] isMusic false
+[11-13 08:51:15.600] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: y
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:15.974] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: z
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:15.975] processNasCmd, has no semantic body
+[11-13 08:51:15.975] processNasMedia, has no semantic body
+[11-13 08:51:15.975] isMusic text:
+[11-13 08:51:15.975] isMusic false
+[11-13 08:51:15.976] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: z
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:16.275] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rq
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:16.275] processNasCmd, has no semantic body
+[11-13 08:51:16.276] processNasMedia, has no semantic body
+[11-13 08:51:16.276] isMusic text:
+[11-13 08:51:16.276] isMusic false
+[11-13 08:51:16.276] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rq
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:16.523] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rr
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:16.524] processNasCmd, has no semantic body
+[11-13 08:51:16.524] processNasMedia, has no semantic body
+[11-13 08:51:16.524] isMusic text:
+[11-13 08:51:16.524] isMusic false
+[11-13 08:51:16.524] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rr
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:16.794] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rs
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:16.795] processNasCmd, has no semantic body
+[11-13 08:51:16.795] processNasMedia, has no semantic body
+[11-13 08:51:16.795] isMusic text:
+[11-13 08:51:16.795] isMusic false
+[11-13 08:51:16.795] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rs
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:17.113] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rt
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:17.114] processNasCmd, has no semantic body
+[11-13 08:51:17.114] processNasMedia, has no semantic body
+[11-13 08:51:17.114] isMusic text:
+[11-13 08:51:17.114] isMusic false
+[11-13 08:51:17.114] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rt
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:17.395] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: ru
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:17.396] processNasCmd, has no semantic body
+[11-13 08:51:17.396] processNasMedia, has no semantic body
+[11-13 08:51:17.396] isMusic text:
+[11-13 08:51:17.396] isMusic false
+[11-13 08:51:17.397] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: ru
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:17.697] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rv
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:17.698] processNasCmd, has no semantic body
+[11-13 08:51:17.698] processNasMedia, has no semantic body
+[11-13 08:51:17.698] isMusic text:
+[11-13 08:51:17.698] isMusic false
+[11-13 08:51:17.698] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rv
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:18.009] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rw
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:18.009] processNasCmd, has no semantic body
+[11-13 08:51:18.009] processNasMedia, has no semantic body
+[11-13 08:51:18.009] isMusic text:
+[11-13 08:51:18.009] isMusic false
+[11-13 08:51:18.009] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rw
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:18.260] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rx
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:18.260] processNasCmd, has no semantic body
+[11-13 08:51:18.260] processNasMedia, has no semantic body
+[11-13 08:51:18.260] isMusic text:
+[11-13 08:51:18.260] isMusic false
+[11-13 08:51:18.260] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rx
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 0
+
+
+[11-13 08:51:18.655] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510
+RS: hHbHDiH
+PN: ry
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 501
+
+{"code":"ANSWER","originIntent":{"nluSlotInfos":[]},"history":"cn.yunzhisheng.chat","source":"krc","uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"},"asr_recongize":"播放孤勇者。","rc":0,"general":{"style":"CHAT_SENTENCE","text":"不定期播放"},"returnCode":0,"audioUrl":"http://asrv3.hivoice.cn/trafficRouter/r/S7B3uO","retTag":"nlu","service":"cn.yunzhisheng.chat","nluProcessTime":"343","text":"播放孤勇者","responseId":"b47aec6558694cd5ac9bbe67ffd84e8f"}
+[11-13 08:51:18.655] processNasCmd, has no semantic body
+[11-13 08:51:18.655] processNasMedia, has no semantic body
+[11-13 08:51:18.655] generateSemanticBody
+[11-13 08:51:18.655] cleanString:播放孤勇者
+[11-13 08:51:18.656] processPlayCommand:播放孤勇者
+[11-13 08:51:18.656] getMatchedAudio prepare to find match text:孤勇者
+[11-13 08:51:18.656] getMatchedAudio prepare to find match name:孤勇者 specified_singer: seq:
+[11-13 08:51:18.656] getItemOfSpecified, name:孤勇者 seq:
+[11-13 08:51:18.656] getItemOfSpecified, new name:孤勇者new seq:
+[11-13 08:51:18.658] getItemOfSpecified, no item found
+[11-13 08:51:18.658] isMusic text:播放孤勇者
+[11-13 08:51:18.658] isMusic 播放xxx
+[11-13 08:51:18.658] search internet with key word:孤勇者
+[11-13 08:51:18.659] isMusic text:播放孤勇者
+[11-13 08:51:18.659] isMusic 播放xxx
+[11-13 08:51:20.233] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510
+RS: hHbHDiH
+PN: ry
+Date: 
+Server: 
+SID: wuwxOrOsNuOvvwwxzqPvPOsRNxryurrw
+Content-Length: 9114
+
+{"semantic":{"intent":{"artist":"游鸿明","keyword":"游鸿明"}},"code":"SEARCH_CATEGORY","data":{"result":{"count":20,"musicinfo":[{"id":5606014,"errorCode":0,"duration":4038731,"lyric":"","album":"孤勇者","title":"孤勇者","artist":"陈奕迅","hdImgUrl":"http://p3.music.126.net/aG5zqxkBRfLiV7A8W0iwgA==/109951166702962263.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113211618/f03fcd9e5b8174f42c61b2bd92d13cd0/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/19896402574/2097/4c8f/78b7/9f758356cd1a5e135c711036c418d7b0.mp3"},{"id":730399,"errorCode":0,"duration":3003109,"lyric":"","album":"孤勇者 (Live版)","title":"孤勇者 (Live版)","artist":"陈奕迅","hdImgUrl":"http://p4.music.126.net/OrHXw4pKobVZlAjbVal9dg==/109951167916394562.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113211619/b1961c03d80c2f4e8a1ae410b47e6342/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/18547355472/14c7/d408/849b/2fc1e5e1776d5b7297be4f6a86904706.mp3"},{"id":696403,"errorCode":0,"duration":2166569,"lyric":"","album":"","title":"孤勇者 (Live)","artist":"宋亚轩","hdImgUrl":"http://p3.music.126.net/qRroCJ3aj8tgwCRbzYuuHg==/109951167356886704.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113211619/d3e2bdf8b26573a6a0ac1347f2b43184/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14188153107/33db/4ff6/dc99/a852de0c754d1debc4a92b80ced0ade5.mp3"},{"id":4315891,"errorCode":0,"duration":7043980,"lyric":"","album":"肖恩作品集","title":"孤勇者 (英文版)","artist":"肖恩Shaun Gibson","hdImgUrl":"http://p4.music.126.net/qiFPGAOvWiLJ-qZoq1ABtw==/109951167810861521.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113211619/daea9cec3900d52a21b48e34376933a9/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/17803118709/b982/f459/4940/e3dccf16fe31d8df43852ec3b92d1685.mp3"},{"id":7559921,"errorCode":0,"duration":8913045,"lyric":"","album":"消愁","title":"孤勇者（cover：陈奕迅）","artist":"SsSs","hdImgUrl":"http://p3.music.126.net/xgTI__xYNPYtD6afIEvtWA==/109951167916961444.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113211619/a6e3e28029df5ef39489e6eee074d7a3/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/19518974715/0862/01e2/59c8/32165528f1bc36db8eda32725c652722.mp3"},{"id":2629014,"errorCode":0,"duration":3625661,"lyric":"","album":"一起吹过晚风的街","title":"孤勇者 (DJ热播)","artist":"苏亦洋","hdImgUrl":"http://p4.music.126.net/VKIA8OgkD-i3MENliNFlIg==/109951167848356052.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113211619/72d1d0531ebfb372ccb4adf59196b6e6/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/18499661596/a294/24b2/0efa/27a38fabdf8c827696f29b32d489a075.mp3"},{"id":5665701,"errorCode":0,"duration":9534046,"lyric":"","album":"青春无悔","title":"孤勇者（女生版）","artist":"海涛","hdImgUrl":"http://p4.music.126.net/OH_gtR9I5XD2J_CHJRJa6Q==/109951166902913140.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113211619/ef5e6faccaf8fe0c14794c805e45eede/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/12577643629/0200/26c8/4239/b94153c608bdc3efc5b679e507c9418c.mp3"},{"id":6391488,"errorCode":0,"duration":6800803,"lyric":"","album":"孤勇者-钢琴版","title":"孤勇者-钢琴版","artist":"Music YaYa","hdImgUrl":"http://p4.music.126.net/jL8zxKo8zAQ9dKu0vpHr6A==/109951167499280935.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113211619/fb8732ed14320e3798b294ac12ab9e8c/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14795119657/5a50/e720/7ee4/6c0a0097c71e8a765deea21c08585ed0.mp3"},{"id":8118620,"errorCode":0,"duration":5309962,"lyric":"","album":"「循梦」LIVE音频","title":"孤勇者 (Live)","artist":"张真源","hdImgUrl":"http://p4.music.126.net/lQ1w_G1VYx66SwEH5porQg==/109951167571600319.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113211619/b4d903a2ecc6a1ec73545abda4e0200f/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/15128526656/0448/9afd/4cf7/02eb4c504958e53b1e7de14be4a8d9a5.mp3"},{"id":6202633,"errorCode":0,"duration":5969202,"lyric":"","album":"孤勇者","title":"孤勇者 最新版","artist":"tmnn","hdImgUrl":"http://p3.music.126.net/2nHUMyOKukUKfALfD6K8sg==/109951167049916075.jpg","isCollected":false,"url":"http://m10.music.126.net/20221113211619/26c5e6952f6bee65c6255d5c79063e4e/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/13294403417/b578/dc8e/a2f7/02cb4a3a76fc538b6c5cd85381a7ca14.mp3"},{"id":7291218,"errorCode":0,"duration":5179005,"lyric":"","album":"孤勇者","title":"恶作剧（抖音DJ版）","artist":"忧龙","hdImgUrl":"http://p3.music.126.net/Y3TtaVQWemNne58LPELyCg==/109951167025660879.jpg","isCollected":false,"url":"http://m10.music.126.net/20221113211619/abaa1f2d69f6cc3d836623d651a25372/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/13285347926/e483/3a6f/d391/9f801d1c70b6ae298be29f3be1b0b4f6.mp3"},{"id":4251167,"errorCode":0,"duration":2471280,"lyric":"","album":"孤勇者 (粤语)","title":"孤勇者 (粤语)","artist":"罗格","hdImgUrl":"http://p3.music.126.net/1I29ktKdf2ch8DC41HiTyg==/109951167471499477.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113211619/bcbc25bab4f81f3641078c213bf25ebe/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14655042820/9db8/557d/5a46/87aec0a1993f34c1adc9c3367ad7e184.mp3"},{"id":7114497,"errorCode":0,"duration":6113150,"lyric":"","album":"孤勇者 (鋼琴版)","title":"孤勇者 (鋼琴版)","artist":"Jesse T","hdImgUrl":"http://p3.music.126.net/FakrZ8mzqNf2n5DEHTnghw==/109951167219443250.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113211619/9261a99821946585d50e1b5657ffc2c0/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/13720139646/7381/03dc/f4f3/e059021346f51129c464bff36a01a256.mp3"},{"id":9131351,"errorCode":0,"duration":9408170,"lyric":"","album":"孤勇者","title":"孤勇者","artist":"小熊餅乾屋","hdImgUrl":"http://p4.music.126.net/MAnpURab8105otu0_D8pLA==/109951167380730320.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113211619/4bf371825a141920a8398e2558e6b4b4/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14292899012/0b34/0982/7e1d/419ec714326a22be9352cf3ea90f6825.mp3"},{"id":7200764,"errorCode":0,"duration":5948667,"lyric":"","album":"F曲","title":"孤勇者（正式版）","artist":"梁颖伟","hdImgUrl":"http://p4.music.126.net/9KFE9V8m4dc1d5Od0VRELQ==/109951166796646875.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113211619/04bddc9a5f331bb9116fa88a85a08898/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/10549585487/94a4/e9c7/66c0/f24ce4bbcc347eff6cccc55f373b0f9e.mp3"},{"id":9257949,"errorCode":0,"duration":9102150,"lyric":"","album":"九九","title":"孤勇者-九九","artist":"九九","hdImgUrl":"http://p3.music.126.net/Cqv9Mkpvolu92cA9zPK9Pw==/109951166957892772.jpg","isCollected":false,"url":"http://m10.music.126.net/20221113211619/1adf1dd72652e60d3f11dea1cb21642a/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/13293876379/66a0/410a/167a/ff4a1f847303d7de381c059e13cd012e.mp3"},{"id":8930835,"errorCode":0,"duration":6423903,"lyric":"","album":"风物之诗琴","title":"孤勇者 （原神镜花之琴）","artist":"川建国","hdImgUrl":"http://p4.music.126.net/Odjws7ezuPkLI_xYW4ub-w==/109951167580184098.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113211619/b7c07ea529c8ae6d200c500046d45151/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/15514959426/c86c/f5a1/391e/7b2b661fdc0dd5a443eec6711be18265.mp3"},{"id":3118915,"errorCode":0,"duration":7495463,"lyric":"","album":"孤勇者","title":"孤勇者","artist":"网虫","hdImgUrl":"http://p3.music.126.net/dJfx8A8wzl7FlS9SJADLPg==/109951166934314760.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113211620/f61828a99c84d5570f0576da51a092a7/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/12413544622/e526/5abb/3f5d/259a169309e5c489e508c708ed92b3eb.mp3"},{"id":2338350,"errorCode":0,"duration":2062776,"lyric":"","album":"孤勇者 (吉他弹唱版)","title":"孤勇者 (吉他弹唱版)","artist":"张可聿","hdImgUrl":"http://p3.music.126.net/qHvndpFXtGtLue3-0JLW4g==/109951166917720343.jpg","isCollected":false,"url":"http://m701.music.126.net/20221113211620/0999418918b10413a53174f1e711ffae/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/12591160688/622f/751b/08ba/82368324716b9ba8a3da97a7c96cfcd8.mp3"},{"id":9421418,"errorCode":0,"duration":7274904,"lyric":"","album":"孤勇者 (粤语)","title":"孤勇者 伴奏 (粤语)","artist":"罗格","hdImgUrl":"http://p4.music.126.net/1I29ktKdf2ch8DC41HiTyg==/109951167471499477.jpg","isCollected":false,"url":"http://m801.music.126.net/20221113211620/410066848bee941150669304ddb38c94/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14655047439/e31c/6787/49ec/06229418f9d2abc93d2b2e71bd6ea90d.mp3"}],"totalTime":10,"pagesize":20,"errorCode":0,"page":"1","source":1,"dataSourceName":"我的音乐"}},"originIntent":{"nluSlotInfos":[]},"history":"cn.yunzhisheng.music","source":"nlu","uniCarRet":{"result":[],"returnCode":609,"message":"aios-home.hivoice.cn"},"asr_recongize":"孤勇者","rc":0,"general":{"actionAble":"true","quitDialog":"true","text":"孤勇者","type":"T"},"returnCode":0,"audioUrl":"http://asrv3.hivoice.cn/trafficRouter/r/wMgclE","retTag":"nlu","service":"cn.yunzhisheng.music","nluProcessTime":"106","text":"孤勇者","responseId":"e490d9576c5b438c8283a6e71cdba997"}
+[11-13 08:51:34.611] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"}}
+[11-13 08:51:34.611] processNasCmd, has no semantic body
+[11-13 08:51:34.612] processNasMedia, has no semantic body
+[11-13 08:51:34.612] isMusic text:
+[11-13 08:51:34.612] isMusic false
+[11-13 08:51:34.612] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":[],"returnCode":609,"message":"http post reuqest error"}}
+[11-13 08:51:35.072] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:35.072] processNasCmd, has no semantic body
+[11-13 08:51:35.072] processNasMedia, has no semantic body
+[11-13 08:51:35.072] isMusic text:
+[11-13 08:51:35.072] isMusic false
+[11-13 08:51:35.072] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:35.372] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:35.380] processNasCmd, has no semantic body
+[11-13 08:51:35.380] processNasMedia, has no semantic body
+[11-13 08:51:35.380] isMusic text:
+[11-13 08:51:35.380] isMusic false
+[11-13 08:51:35.380] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:35.672] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:35.673] processNasCmd, has no semantic body
+[11-13 08:51:35.673] processNasMedia, has no semantic body
+[11-13 08:51:35.673] isMusic text:
+[11-13 08:51:35.673] isMusic false
+[11-13 08:51:35.673] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:35.952] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:35.952] processNasCmd, has no semantic body
+[11-13 08:51:35.953] processNasMedia, has no semantic body
+[11-13 08:51:35.953] isMusic text:
+[11-13 08:51:35.953] isMusic false
+[11-13 08:51:35.953] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:36.241] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:36.242] processNasCmd, has no semantic body
+[11-13 08:51:36.242] processNasMedia, has no semantic body
+[11-13 08:51:36.242] isMusic text:
+[11-13 08:51:36.242] isMusic false
+[11-13 08:51:36.242] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:36.620] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: w
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:36.620] processNasCmd, has no semantic body
+[11-13 08:51:36.620] processNasMedia, has no semantic body
+[11-13 08:51:36.620] isMusic text:
+[11-13 08:51:36.621] isMusic false
+[11-13 08:51:36.621] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: w
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:36.833] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: x
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:36.833] processNasCmd, has no semantic body
+[11-13 08:51:36.833] processNasMedia, has no semantic body
+[11-13 08:51:36.833] isMusic text:
+[11-13 08:51:36.834] isMusic false
+[11-13 08:51:36.834] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: x
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:37.119] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: y
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:37.119] processNasCmd, has no semantic body
+[11-13 08:51:37.120] processNasMedia, has no semantic body
+[11-13 08:51:37.120] isMusic text:
+[11-13 08:51:37.120] isMusic false
+[11-13 08:51:37.120] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: y
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:37.408] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: z
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:37.408] processNasCmd, has no semantic body
+[11-13 08:51:37.408] processNasMedia, has no semantic body
+[11-13 08:51:37.408] isMusic text:
+[11-13 08:51:37.408] isMusic false
+[11-13 08:51:37.408] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: z
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:37.757] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rq
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:37.758] processNasCmd, has no semantic body
+[11-13 08:51:37.758] processNasMedia, has no semantic body
+[11-13 08:51:37.758] isMusic text:
+[11-13 08:51:37.758] isMusic false
+[11-13 08:51:37.758] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rq
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:38.023] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rr
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:38.023] processNasCmd, has no semantic body
+[11-13 08:51:38.023] processNasMedia, has no semantic body
+[11-13 08:51:38.023] isMusic text:
+[11-13 08:51:38.023] isMusic false
+[11-13 08:51:38.024] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rr
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:38.316] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rs
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:38.316] processNasCmd, has no semantic body
+[11-13 08:51:38.316] processNasMedia, has no semantic body
+[11-13 08:51:38.316] isMusic text:
+[11-13 08:51:38.316] isMusic false
+[11-13 08:51:38.316] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rs
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:38.626] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rt
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:38.627] processNasCmd, has no semantic body
+[11-13 08:51:38.627] processNasMedia, has no semantic body
+[11-13 08:51:38.627] isMusic text:
+[11-13 08:51:38.627] isMusic false
+[11-13 08:51:38.627] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rt
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:38.911] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: ru
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:38.911] processNasCmd, has no semantic body
+[11-13 08:51:38.911] processNasMedia, has no semantic body
+[11-13 08:51:38.911] isMusic text:
+[11-13 08:51:38.911] isMusic false
+[11-13 08:51:38.911] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: ru
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:39.219] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rv
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:39.219] processNasCmd, has no semantic body
+[11-13 08:51:39.219] processNasMedia, has no semantic body
+[11-13 08:51:39.219] isMusic text:
+[11-13 08:51:39.219] isMusic false
+[11-13 08:51:39.219] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rv
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:39.519] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rw
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:39.519] processNasCmd, has no semantic body
+[11-13 08:51:39.519] processNasMedia, has no semantic body
+[11-13 08:51:39.519] isMusic text:
+[11-13 08:51:39.519] isMusic false
+[11-13 08:51:39.519] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rw
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:39.749] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rx
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:39.749] processNasCmd, has no semantic body
+[11-13 08:51:39.750] processNasMedia, has no semantic body
+[11-13 08:51:39.750] isMusic text:
+[11-13 08:51:39.750] isMusic false
+[11-13 08:51:39.750] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rx
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 0
+
+
+[11-13 08:51:41.086] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510
+RS: hHbHDiH
+PN: ry
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 27220
+
+{"semantic":{"intent":{"name":"清明上河图","keyword":"清明上河图"}},"code":"SEARCH_NAME","data":{"result":{"total":"50","playlist":[{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group80/M07/18/C4/wKgPEV6-py3RIX7WAHmQxosd6N8835.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group80/M07/13/23/wKgPDF6-py-jXZ5IAC58IBKKopQ155.m4a","play_count":353489,"title":"清明上河图里隐藏的小细节：宋朝凉透的秘密全在这…","url":"http://openaudio.cos.tx.xmcdn.com/group81/M01/26/D2/wKgPEl6-pyvD5JeYADwPRhnPWa0245.mp3","tags":"百家讲坛,历史,读书,文化,人物传记","cover":"http://imgopen.xmcdn.com/group60/M08/30/7A/wKgLb1zH9TXj1zs7AADWaZ7G48A852.jpg!op_type=3&columns=100&rows=100","duration":983,"update_time":"2021-09-19 16:57:34","url_high":"http://openaudio.cos.tx.xmcdn.com/group80/M07/13/26/wKgPDF6-pzfQCWG1AHgdj3FVfjk693.mp3","id":296844972,"cover_large":"http://imgopen.xmcdn.com/group60/M08/30/7A/wKgLb1zH9TXj1zs7AADWaZ7G48A852.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/b7bb-audiofreehighqps/97/4C/CKwRIUEEir7rACIOVgCzQwrF.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/5897-audiofreehighqps/7F/64/CKwRIDoEir7sAA0JvQCzQwtE.m4a","play_count":354679,"title":"蔬菜警长-《清明上河图》失窃案【03】","url":"http://openaudio.cos.tx.xmcdn.com/storages/8ab9-audiofreehighqps/67/96/CKwRIMAEir7zABDR4wCzQw7E.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/f659-audiofreehighqps/D8/87/CMCoOSUEEiYJAALv-wCM9eIy.jpeg!op_type=3&columns=100&rows=100","duration":275,"update_time":"2021-06-08 14:21:56","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/3cc9-audiofreehighqps/15/4C/CKwRIaIEir78ACGiyACzQxNE.mp3","id":420511077,"cover_large":"http://imgopen.xmcdn.com/storages/f659-audiofreehighqps/D8/87/CMCoOSUEEiYJAALv-wCM9eIy.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/9e22-audiofreehighqps/09/C5/CKwRIasEir7hAB3RKgCzQwWd.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/9382-audiofreehighqps/E9/0E/CKwRIRwEir7dAAtq4ACzQwOd.m4a","play_count":407251,"title":"蔬菜警长-《清明上河图》失窃案【01】","url":"http://openaudio.cos.tx.xmcdn.com/storages/dc50-audiofreehighqps/44/AB/CKwRINsEir7jAA65jwCzQwaA.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/f659-audiofreehighqps/D8/87/CMCoOSUEEiYJAALv-wCM9eIy.jpeg!op_type=3&columns=100&rows=100","duration":241,"update_time":"2021-06-08 14:25:39","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/54a0-audiofreehighqps/94/58/CKwRIMAEir7lAB1yIQCzQwe8.mp3","id":420511016,"cover_large":"http://imgopen.xmcdn.com/storages/f659-audiofreehighqps/D8/87/CMCoOSUEEiYJAALv-wCM9eIy.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/547d-audiofreehighqps/63/8E/CKwRIUEEir7hABcibgCzQwWx.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/c4c6-audiofreehighqps/28/E9/CKwRIMAEir7kAAjbpwCzQwdz.m4a","play_count":367363,"title":"蔬菜警长-《清明上河图》失窃案【02】","url":"http://openaudio.cos.tx.xmcdn.com/storages/6aa2-audiofreehighqps/9A/DC/CKwRIMAEir7qAAtsQQCzQwoL.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/f659-audiofreehighqps/D8/87/CMCoOSUEEiYJAALv-wCM9eIy.jpeg!op_type=3&columns=100&rows=100","duration":187,"update_time":"2021-06-08 14:21:39","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/ee26-audiofreehighqps/3E/FA/CKwRIasEir7sABbXhACzQwsK.mp3","id":420511040,"cover_large":"http://imgopen.xmcdn.com/storages/f659-audiofreehighqps/D8/87/CMCoOSUEEiYJAALv-wCM9eIy.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/0c81-audiofreehighqps/A5/E7/CKwRINsEir7xACH8uACzQw2s.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/7b89-audiofreehighqps/31/B7/CKwRIRwEir7wAA0DfACzQw1R.m4a","play_count":357725,"title":"蔬菜警长-《清明上河图》失窃案【04】","url":"http://openaudio.cos.tx.xmcdn.com/storages/a42c-audiofreehighqps/7B/12/CKwRIasEir73ABDJUQCzQxCp.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/f659-audiofreehighqps/D8/87/CMCoOSUEEiYJAALv-wCM9eIy.jpeg!op_type=3&columns=100&rows=100","duration":274,"update_time":"2021-06-08 14:23:00","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/9a39-audiofreehighqps/1B/46/CKwRIasEir76ACGRpACzQxIO.mp3","id":420511118,"cover_large":"http://imgopen.xmcdn.com/storages/f659-audiofreehighqps/D8/87/CMCoOSUEEiYJAALv-wCM9eIy.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/2fc3-audiofreehighqps/AC/8D/GKwRIaIGfb6sAOxlXQFqphH1.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/5e3b-audiofreehighqps/15/BF/GKwRIJIGfb6VAFpkIgFqpgTw.m4a","play_count":31012,"title":"付韦鸣×梁冬（上）：《清明上河图》暗藏了多少玄机？从宋到清的时代剪影","url":"http://openaudio.cos.tx.xmcdn.com/storages/3c4c-audiofreehighqps/73/2F/GKwRINsGfb64AHTONgFqphf6.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/6422-audiofreehighqps/18/00/CKwRINsEj14yAAJINAC06enZ!op_type=3&columns=100&rows=100","duration":1913,"update_time":"2022-06-14 11:22:36","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/3d80-audiofreehighqps/70/99/GKwRINsGfb7hAOmbbwFqpi10.mp3","id":543048077,"cover_large":"http://imgopen.xmcdn.com/storages/6422-audiofreehighqps/18/00/CKwRINsEj14yAAJINAC06enZ!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/ba87-audiofreehighqps/A8/A4/GKwRINsFybmUAK3bBgESOH1M.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/804c-audiofreehighqps/1E/4E/GKwRIDoFybmJAEJ79QESOHkF.m4a","play_count":67286,"title":"140·清明上河图（一）--前世今生","url":"http://openaudio.cos.tx.xmcdn.com/storages/038e-audiofreehighqps/B0/78/GKwRIRwFybmiAFXmyQESOIMC.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/f819-audiofreehighqps/80/49/GKwRIJEFybiFAAPmIAESOAZZ.jpeg!op_type=3&columns=100&rows=100","duration":1407,"update_time":"2022-01-28 22:16:02","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/db78-audiofreehighqps/1E/1A/GKwRIJIFybmqAKvMlAESOIbY.mp3","id":497277552,"cover_large":"http://imgopen.xmcdn.com/storages/f819-audiofreehighqps/80/49/GKwRIJEFybiFAAPmIAESOAZZ.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/9393-audiofreehighqps/20/DD/GKwRIW4F09eLAMFNBAEUC0Hd.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/e59d-audiofreehighqps/D5/A7/GKwRINsF09ePAEnrRQEUC0K4.m4a","play_count":58758,"title":"141·清明上河图（二）--郊野田园","url":"http://openaudio.cos.tx.xmcdn.com/storages/8afa-audiofreehighqps/6A/6E/GKwRIMAF09e1AF-CyQEUC0sU.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/7d93-audiofreehighqps/84/F4/GKwRINsF09cXAAPBowEUCye-.jpeg!op_type=3&columns=100&rows=100","duration":1564,"update_time":"2022-02-05 14:25:38","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/3ac4-audiofreehighqps/15/02/GKwRIJIF09fHAL8ElAEUC07V.mp3","id":499051915,"cover_large":"http://imgopen.xmcdn.com/storages/7d93-audiofreehighqps/84/F4/GKwRINsF09cXAAPBowEUCye-.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/ad39-audiofreehighqps/C0/89/GKwRIMAF7lyJAJtVcgEc1ASa.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/0ffa-audiofreehighqps/F4/C2/GKwRIRwF7lyaADtnYgEc1BEd.m4a","play_count":49979,"title":"143·清明上河图（四）--盛世危城","url":"http://openaudio.cos.tx.xmcdn.com/storages/5b1a-audiofreehighqps/5D/01/GKwRIMAF7ly3AEzAVgEc1C3L.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/a44c-audiofreehighqps/EB/F2/GKwRIaIF7lvJAARYtgEc01E1.jpeg!op_type=3&columns=100&rows=100","duration":1257,"update_time":"2022-03-17 23:04:09","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/1e94-audiofreehighqps/91/E9/GKwRIaIF7lzCAJl_rgEc1Dj6.mp3","id":505374678,"cover_large":"http://imgopen.xmcdn.com/storages/a44c-audiofreehighqps/EB/F2/GKwRIaIF7lvJAARYtgEc01E1.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/56f2-audiofreehighqps/23/FB/GKwRIasF7l2PAJivCQEc1Olq.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/f7f0-audiofreehighqps/D3/52/GKwRIMAF7l2EADpkXQEc1OAp.m4a","play_count":52574,"title":"144·清明上河图（五）--车水马龙","url":"http://openaudio.cos.tx.xmcdn.com/storages/f7c1-audiofreehighqps/B9/AA/GKwRIDoF7l2bAEtwawEc1Pck.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/d4e7-audiofreehighqps/63/49/GKwRIW4F7ly5AAV_4AEc1C-h.jpeg!op_type=3&columns=100&rows=100","duration":1235,"update_time":"2022-03-17 23:02:33","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/f912-audiofreehighqps/AA/3B/GKwRIRwF7l2rAJbf2AEc1QGN.mp3","id":505375951,"cover_large":"http://imgopen.xmcdn.com/storages/d4e7-audiofreehighqps/63/49/GKwRIW4F7ly5AAV_4AEc1C-h.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/7097-audiofreehighqps/25/2F/CKwRIMAEPlQzAF7zOwCaRCAc.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/190c-audiofreehighqps/84/17/CKwRIUEEPlQjACRPwwCaRBv4.m4a","play_count":34160,"title":"第四章 宋王朝疑案（十二、十三）《清明上河图》之谜和“帽妖”事件","url":"http://openaudio.cos.tx.xmcdn.com/storages/ef43-audiofreehighqps/B0/7F/CKwRIaIEPlQ3AC7pjwCaRCFJ.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/62b6-audiofreehighqps/8E/05/CMCoOScEBULsAAt2NgCJUHwz.jpg!op_type=3&columns=100&rows=100","duration":768,"update_time":"2021-04-04 06:53:43","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/e6d9-audiofreehighqps/DD/FE/CKwRIMAEPlRDAF3SIQCaRCUb.mp3","id":402014088,"cover_large":"http://imgopen.xmcdn.com/storages/62b6-audiofreehighqps/8E/05/CMCoOScEBULsAAt2NgCJUHwz.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/1106-audiofreehighqps/BC/94/CMCoOSUDfJbQAD1ttgBkwWDv.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/ab26-audiofreehighqps/91/D5/CMCoOSADfJbRABd-nABkwWD_.m4a","play_count":268654,"title":"为何说《清明上河图》揭示了北宋帝国的灭亡？","url":"http://openaudio.cos.tx.xmcdn.com/storages/5bce-audiofreehighqps/56/64/CMCoOSUDfJbQAB5p-ABkwWD6.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group73/M04/AE/65/wKgO216EU5DhyOHCAAN16A0sV5U496.jpg!op_type=3&columns=100&rows=100","duration":497,"update_time":"2021-09-19 16:12:20","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/c51c-audiofreehighqps/DF/AA/CMCoOSIDfJbSADzBUABkwWEP.mp3","id":353158451,"cover_large":"http://imgopen.xmcdn.com/group73/M04/AE/65/wKgO216EU5DhyOHCAAN16A0sV5U496.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group73/M02/4C/25/wKgO216eH-DDJBvVAG1QpfKPqPU710.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group73/M02/4C/25/wKgO216eH9_B7EpoACqEN-4vEPU068.m4a","play_count":46465,"title":"清明上河图的流传与发现","url":"http://openaudio.cos.tx.xmcdn.com/group73/M02/4C/25/wKgO216eH-aQXDEaADWD4dUu4B4917.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group73/M04/3E/9C/wKgO0V6MtzfCeedMAAFf5zrhejA884.jpg!op_type=3&columns=100&rows=100","duration":875,"update_time":"2020-05-15 22:37:35","url_high":"http://openaudio.cos.tx.xmcdn.com/group73/M02/55/A1/wKgO0V6eH-DSoWUfAGr1Gj_hxcM340.mp3","id":286145765,"cover_large":"http://imgopen.xmcdn.com/group73/M04/3E/9C/wKgO0V6MtzfCeedMAAFf5zrhejA884.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/1abf-audiofreehighqps/54/44/CKwRIDoEAwRsAFb6XgCItkyq.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/ccf5-audiofreehighqps/76/9C/CKwRIMAEAwRqACFGOwCItkxv.m4a","play_count":30452,"title":"【20万粉：女装】清明上河图","url":"http://openaudio.cos.tx.xmcdn.com/storages/4d14-audiofreehighqps/D6/0B/CKwRIUEEAwR6ACr48gCItk5s.mp3","tags":"{0:[","cover":"http://imgopen.xmcdn.com/storages/ad13-audiofreehighqps/FD/64/CMCoOR8EAwD-AAHZjQCIteAB.jpeg!op_type=3&columns=100&rows=100","duration":703,"update_time":"2021-09-18 20:50:33","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/fc3b-audiofreehighqps/05/ED/CKwRIMAEAwSCAFXwiQCItk9m.mp3","id":386758278,"cover_large":"http://imgopen.xmcdn.com/storages/ad13-audiofreehighqps/FD/64/CMCoOR8EAwD-AAHZjQCIteAB.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/b8ce-audiofreehighqps/4D/05/CMCoOScEBReYAEENwwCJQa8E.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/4e14-audiofreehighqps/08/89/CMCoOSUEBReZABjh9gCJQa98.m4a","play_count":27387,"title":"清明上河图全景解析（一）","url":"http://openaudio.cos.tx.xmcdn.com/storages/685c-audiofreehighqps/B1/6E/CMCoOSIEBReXACAiSwCJQa6v.mp3","tags":"{0:[\"清明上河图\",\"北宋\"],10337:[\"科学科普\"]}","cover":"http://imgopen.xmcdn.com/storages/5476-audiofreehighqps/70/7A/CMCoOSIEBRdTAAQ9CgCJQZKU.jpeg!op_type=3&columns=100&rows=100","duration":526,"update_time":"2021-09-18 20:50:32","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/5cd0-audiofreehighqps/4C/77/CMCoOSQEBReZAEBDmQCJQa-7.mp3","id":387464834,"cover_large":"http://imgopen.xmcdn.com/storages/5476-audiofreehighqps/70/7A/CMCoOSIEBRdTAAQ9CgCJQZKU.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/0cd7-audiofreehighqps/B9/DA/CMCoOSMEBwVrAEkFawCJ1ijr.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/8f02-audiofreehighqps/29/5A/CMCoOR4EBwVrABvtkwCJ1ijo.m4a","play_count":25078,"title":"清明上河图全景解析（二）","url":"http://openaudio.cos.tx.xmcdn.com/storages/a574-audiofreehighqps/9E/5A/CMCoOSYEBwVpACQSDQCJ1ijL.mp3","tags":"{0:[\"清明上河图\",\"北宋\"],10337:[\"科学科普\"]}","cover":"http://imgopen.xmcdn.com/storages/1169-audiofreehighqps/89/DB/CMCoOScEBwUvAARKaACJ1iVf.jpeg!op_type=3&columns=100&rows=100","duration":590,"update_time":"2021-09-18 20:50:32","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/1f22-audiofreehighqps/4B/37/CMCoOSUEBwVsAEgjHACJ1ij3.mp3","id":387815395,"cover_large":"http://imgopen.xmcdn.com/storages/1169-audiofreehighqps/89/DB/CMCoOScEBwUvAARKaACJ1iVf.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/21f5-audiofreehighqps/59/13/CKwRIUEECEcjAD4hcgCKIJ6G.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/8636-audiofreehighqps/79/52/CKwRIUEECEchABfGLQCKIJ5B.m4a","play_count":23946,"title":"清明上河图全景解析（三）","url":"http://openaudio.cos.tx.xmcdn.com/storages/d683-audiofreehighqps/71/BB/CKwRIJEECEcsAB6w6ACKIJ_5.mp3","tags":"{0:[\"清明上河图\",\"北宋\"],10337:[\"科学科普\"]}","cover":"http://imgopen.xmcdn.com/storages/f381-audiofreehighqps/0B/07/CMCoOR4ECEbqAANv9ACKIJXD.jpeg!op_type=3&columns=100&rows=100","duration":502,"update_time":"2021-09-18 20:50:32","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/32f2-audiofreehighqps/CA/6D/CKwRIJEECEcxAD1g0wCKIKCZ.mp3","id":388144253,"cover_large":"http://imgopen.xmcdn.com/storages/f381-audiofreehighqps/0B/07/CMCoOR4ECEbqAANv9ACKIJXD.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/8ed7-audiofreehighqps/5F/D9/CKwRIUEECnDUAEAe_gCKyFyI.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/5aa9-audiofreehighqps/EC/89/CKwRIRwECnDTABiJRgCKyFwt.m4a","play_count":20490,"title":"清明上河图全景解析（五）","url":"http://openaudio.cos.tx.xmcdn.com/storages/ee55-audiofreehighqps/BF/43/CKwRINsECnDgAB-tJwCKyGFR.mp3","tags":"{0:[\"清明上河图\",\"北宋\"],10337:[\"科学科普\"]}","cover":"http://imgopen.xmcdn.com/storages/a717-audiofreehighqps/79/40/CMCoOSIECnCXAARQuACKyEgo.jpeg!op_type=3&columns=100&rows=100","duration":518,"update_time":"2021-09-18 20:50:32","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/b05c-audiofreehighqps/EC/A6/CKwRIRwECnDlAD9ZUACKyGM1.mp3","id":388846827,"cover_large":"http://imgopen.xmcdn.com/storages/a717-audiofreehighqps/79/40/CMCoOSIECnCXAARQuACKyEgo.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group81/M05/7C/61/wKgPDV6mpQSjGWqXAE7VbRdDDeI470.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group80/M07/78/C0/wKgPDF6mpPeS6WWrAB6sxplY1Cw750.m4a","play_count":80130,"title":"清明上河图为何是“清明”----历史趣谈653","url":"http://openaudio.cos.tx.xmcdn.com/group80/M08/78/C2/wKgPDF6mpP7QalDqACaKxTEP27k838.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group53/M02/BF/2A/wKgLfFw1w5_RCzPsAAN5ArYhCz0667.jpg!op_type=3&columns=100&rows=100","duration":631,"update_time":"2022-02-17 12:25:15","url_high":"http://openaudio.cos.tx.xmcdn.com/group80/M08/7E/61/wKgPEV6mpQCgr_0kAE0Ue6rsx1Y611.mp3","id":289153254,"cover_large":"http://imgopen.xmcdn.com/group53/M02/BF/2A/wKgLfFw1w5_RCzPsAAN5ArYhCz0667.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/4cd9-audiofreehighqps/1A/36/GKwRIRwGLGKCAF2boAE7LA9u.m4a","episode":87,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/3e4c-audiofreehighqps/8D/9C/GKwRIDoGLGKWACPM7gE7LBl_.m4a","play_count":4297,"title":"084 【揭秘】啥子？《清明上河图》画的是清明节去上坟？","url":"http://openaudio.cos.tx.xmcdn.com/storages/4a50-audiofreehighqps/94/47/GKwRIUEGLGKhAC4_WwE7LB86.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/d840-audiofreehighqps/96/AD/GMCoOR8F5RwjAAee2QEYz66D.jpg!op_type=3&columns=100&rows=100","duration":757,"update_time":"2022-04-13 18:05:38","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/9c4b-audiofreehighqps/61/94/GKwRIUEGLGKyAFx9uQE7LCcx.mp3","id":521293755,"cover_large":"http://imgopen.xmcdn.com/storages/d840-audiofreehighqps/96/AD/GMCoOR8F5RwjAAee2QEYz66D.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group73/M06/B6/E1/wKgO215kII-QTEuaAEvgFZTovZ8283.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group73/M06/C0/5F/wKgO0V5kII3RQwpqAB2Eb2fHcsM239.m4a","play_count":14137,"title":"清明上河图的藏家与赝品","url":"http://openaudio.cos.tx.xmcdn.com/group73/M06/C0/5F/wKgO0V5kIJKzy2WDACUY6JvE8r8052.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group78/M0A/89/18/wKgO4F5hYa3QtGI8AAGAcGnSRRk325.JPG!op_type=3&columns=100&rows=100","duration":607,"update_time":"2020-03-15 20:27:08","url_high":"http://openaudio.cos.tx.xmcdn.com/group73/M06/C0/5F/wKgO0V5kIJLRj170AEow07uk33E934.mp3","id":264705193,"cover_large":"http://imgopen.xmcdn.com/group78/M0A/89/18/wKgO4F5hYa3QtGI8AAGAcGnSRRk325.JPG!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group73/M06/C0/5F/wKgO0V5kIJKwofXcAEZOqWi1wVg588.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group73/M06/B6/E1/wKgO215kIIzRbmkFABtaBWFsxUQ053.m4a","play_count":25330,"title":"清明上河图说得是清明节么？","url":"http://openaudio.cos.tx.xmcdn.com/group73/M06/B6/E1/wKgO215kIJCBC0TfACJfW4_wsFg780.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group78/M0A/89/18/wKgO4F5hYa3QtGI8AAGAcGnSRRk325.JPG!op_type=3&columns=100&rows=100","duration":563,"update_time":"2020-06-08 19:52:06","url_high":"http://openaudio.cos.tx.xmcdn.com/group73/M09/B6/E4/wKgO215kIWahVYrjAES9uYzWG5Y133.mp3","id":264705188,"cover_large":"http://imgopen.xmcdn.com/group78/M0A/89/18/wKgO4F5hYa3QtGI8AAGAcGnSRRk325.JPG!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group73/M06/B6/E1/wKgO215kII-DfLz-AEZ9N1LgFFw223.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group73/M06/C0/5F/wKgO0V5kII6RBfXyABtsRaCzS6U412.m4a","play_count":17888,"title":"到底有多少个版本的清明上河图","url":"http://openaudio.cos.tx.xmcdn.com/group73/M06/C0/5F/wKgO0V5kII_jEsm3ACJ1zk8uX2o145.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group78/M0A/89/18/wKgO4F5hYa3QtGI8AAGAcGnSRRk325.JPG!op_type=3&columns=100&rows=100","duration":564,"update_time":"2020-03-15 20:27:08","url_high":"http://openaudio.cos.tx.xmcdn.com/group73/M06/C0/5F/wKgO0V5kIJnBQRSjAETqnjQ-hGI756.mp3","id":264705190,"cover_large":"http://imgopen.xmcdn.com/group78/M0A/89/18/wKgO4F5hYa3QtGI8AAGAcGnSRRk325.JPG!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/c3d8-audiofreehighqps/A2/F3/CKwRIaIEbPgWAIe0dwCoe-b3.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/d61b-audiofreehighqps/61/C2/CKwRIRwEbPgVADPmlACoe-aQ.m4a","play_count":896,"title":"明朝版本的《清明上河图》会是什么样呢","url":"http://openaudio.cos.tx.xmcdn.com/storages/3131-audiofreehighqps/F5/A5/CKwRIW4EbPg2AEMMqQCoe_Li.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group88/M07/CA/70/wKg5DF9qLeGBnfZTAAD4PxTFUvY98.jpeg!op_type=3&columns=100&rows=100","duration":1098,"update_time":"2021-05-10 18:00:00","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/47f4-audiofreehighqps/92/86/CKwRIRwEbPgqAIYYVQCoe-6h.mp3","id":413378562,"cover_large":"http://imgopen.xmcdn.com/group88/M07/CA/70/wKg5DF9qLeGBnfZTAAD4PxTFUvY98.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/2e4a-audiofreehighqps/5A/8D/GKwRIMAG8IHxAAapFgGeiJdw.m4a","episode":184,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/a089-audiofreehighqps/93/3B/GKwRIDoG8IHxAAKP3AGeiJd4.m4a","play_count":24989,"title":"清明上河图","url":"http://openaudio.cos.tx.xmcdn.com/storages/f5a8-audiofreehighqps/35/A9/GKwRINsG8IHyAANILAGeiJet.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/356b-audiofreehighqps/3E/77/GMCoOR8FpiqwAAXaiwEJItIU.jpg!op_type=3&columns=100&rows=100","duration":53,"update_time":"2022-09-09 12:57:51","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/35f9-audiofreehighqps/B4/20/GKwRIaIG8IHyAAaPWwGeiJfc.mp3","id":567873996,"cover_large":"http://imgopen.xmcdn.com/storages/356b-audiofreehighqps/3E/77/GMCoOR8FpiqwAAXaiwEJItIU.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/d42b-audiofreehighqps/CD/83/CKwRIDoEBG5hALOgRwCJG42v.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/3049-audiofreehighqps/D0/71/CKwRIDoEBG5dAESudgCJG42R.m4a","play_count":17616,"title":"S06E08千古谜案：清明上河图的三大疑问","url":"http://openaudio.cos.tx.xmcdn.com/storages/867d-audiofreehighqps/BC/A6/CKwRIaIEBG56AFjA_QCJG47J.mp3","tags":"{0:[\"清明上河图\"],10337:[\"科学科普\"]}","cover":"http://imgopen.xmcdn.com/storages/cfa5-audiofreehighqps/5C/59/CMCoOScEBG3AAAXVdwCJG4fs.jpeg!op_type=3&columns=100&rows=100","duration":1454,"update_time":"2021-09-19 00:00:04","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/ad8e-audiofreehighqps/59/E0/CKwRIaIEBG6HALGA_QCJG483.mp3","id":387120043,"cover_large":"http://imgopen.xmcdn.com/storages/cfa5-audiofreehighqps/5C/59/CMCoOScEBG3AAAXVdwCJG4fs.jpeg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group75/M05/63/51/wKgO016fCoej0d70AHVC_0Uow8M689.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group78/M0A/6D/5B/wKgO1l6fCoSR9VVsAC2Y90M885A240.m4a","play_count":4971,"title":"《清明上河图》是歌颂还是画谏","url":"http://openaudio.cos.tx.xmcdn.com/group75/M05/63/50/wKgO016fCoOgXw55ADlWaiqz_cs111.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group52/M09/D7/9E/wKgLe1wfP3WQuBUvAAFQYC-YPZc247.png!op_type=3&columns=100&rows=100","duration":939,"update_time":"2020-04-21 23:03:27","url_high":"http://openaudio.cos.tx.xmcdn.com/group75/M05/59/FE/wKgO3V6fCp6g-gefAHKqvQpgNeY429.mp3","id":286603144,"cover_large":"http://imgopen.xmcdn.com/group52/M09/D7/9E/wKgLe1wfP3WQuBUvAAFQYC-YPZc247.png!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/1c98-audiofreehighqps/C2/86/CMCoOSQDRs5jAA9vzQBYbvTC.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/0c44-audiofreehighqps/FE/D5/CMCoOSYDRs5jAAXozABYbvTH.m4a","play_count":7667,"title":"探寻古老的文明137《清明上河图》描绘的是哪里的繁荣景象","url":"http://openaudio.cos.tx.xmcdn.com/storages/5436-audiofreehighqps/DA/88/CMCoOScDRs5jAAed-ABYbvS6.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group88/M09/5C/08/wKg5CV9xImvyckF3AAHedJTeVwY957.jpg!op_type=3&columns=100&rows=100","duration":124,"update_time":"2020-09-28 10:38:08","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/3191-audiofreehighqps/C3/61/CMCoOSADRs5jAA868gBYbvS0.mp3","id":340587087,"cover_large":"http://imgopen.xmcdn.com/group88/M09/5C/08/wKg5CV9xImvyckF3AAHedJTeVwY957.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group50/M03/A6/EA/wKgKnVvbOkKCnj24ACHfZ7QuKs8490.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group50/M07/A8/3B/wKgKmVvbaKzCrWkcAAz2Gv7ueZA167.m4a","play_count":7571,"title":"流行笛子曲|《清明上河图》笛子演奏（F调筒2）","url":"http://openaudio.cos.tx.xmcdn.com/group49/M02/A9/A4/wKgKmFvbcG-SpNxgABC6noTur4A454.mp3","tags":"纯音乐,民乐,90后,文艺","cover":"http://imgopen.xmcdn.com/group49/M0B/A7/4E/wKgKmFvbMwPTYvsTAABeM8H34-g445.jpg!op_type=3&columns=100&rows=100","duration":274,"update_time":"2019-10-26 20:26:26","url_high":"http://openaudio.cos.tx.xmcdn.com/group50/M04/A8/13/wKgKmVvbZCfzxUwBACF0qELAW0g913.mp3","id":133626463,"cover_large":"http://imgopen.xmcdn.com/group49/M0B/A7/4E/wKgKmFvbMwPTYvsTAABeM8H34-g445.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/3b32-audiofreehighqps/E6/50/GKwRIMAHNW_6AFsqEAG-D0Tf.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/2401-audiofreehighqps/07/C6/GKwRIJIHNW_4ACLeqQG-D0Pj.m4a","play_count":774,"title":"清明上河图的景象是历史上真实的宋朝吗？探寻繁荣一时的宋朝","url":"http://openaudio.cos.tx.xmcdn.com/storages/1286-audiofreehighqps/48/D4/GKwRIDoHNXAGAC0KyQG-D0qY.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/be0b-audiofreehighqps/41/F7/CMCoOScEJPuOAAJTQACSfkIR.jpeg!op_type=3&columns=100&rows=100","duration":737,"update_time":"2022-10-31 19:25:04","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/2005-audiofreehighqps/54/EA/GKwRIaIHNXAJAFoUlAG-D0y7.mp3","id":581803417,"cover_large":"http://imgopen.xmcdn.com/storages/be0b-audiofreehighqps/41/F7/CMCoOScEJPuOAAJTQACSfkIR.jpeg!op_type=3&columns=640&rows=640"}],"totalTime":1009,"pagesize":"30","errorCode":0,"page":"1","source":1,"dataSourceName":"喜马拉雅"}},"originIntent":{"nluSlotInfos":[]},"history":"cn.yunzhisheng.audio","source":"nlu","uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"},"asr_recongize":"播放清明上河图。","rc":0,"general":{"actionAble":"true","quitDialog":"true","text":"为您播放有声读物:清明上河图","type":"T"},"returnCode":0,"audioUrl":"http://asrv3.hivoice.cn/trafficRouter/r/RFWNgO","retTag":"nlu","service":"cn.yunzhisheng.audio","nluProcessTime":"1250","text":"播放清明上河图","responseId":"3682ab5f06684cd2b17c3b3e66f9fdf2"}
+[11-13 08:51:41.086] cleanString:播放清明上河图
+[11-13 08:51:41.087] processCtrlCommand:播放清明上河图
+[11-13 08:51:41.087] cleanString:播放清明上河图
+[11-13 08:51:41.087] processPlayCommand:播放清明上河图
+[11-13 08:51:41.087] getMatchedAudio prepare to find match text:清明上河图
+[11-13 08:51:41.087] getMatchedAudio prepare to find match name:清明上河图 specified_singer: seq:
+[11-13 08:51:41.087] getItemOfSpecified, name:清明上河图 seq:
+[11-13 08:51:41.087] getItemOfSpecified, new name:清明上河图new seq:
+[11-13 08:51:41.087] found item:./2019/清明上河图.mp3
+[11-13 08:51:41.087] setSemanticFormat, current_audio:./2019/清明上河图.mp3
+[11-13 08:51:41.087] getNameFromItem:./2019/清明上河图.mp3
+[11-13 08:51:41.087] getSeqFromItem:./2019/清明上河图.mp3, no seq found, return false
+[11-13 08:51:41.087] cleanString:清明上河图
+[11-13 08:51:41.088] getNameFromItem:./2019/清明上河图.mp3
+[11-13 08:51:41.088] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510
+RS: hHbHDiH
+PN: ry
+Date: 
+Server: 
+SID: RzyQzwNsQSxzSPPyzvztPxrSxNrOssSv
+Content-Length: 960
+
+{"semantic":{"intent":{"name":"清明上河图","keyword":"清明上河图"}},"code":"SEARCH_CATEGORY","data":{"result":{"count":1,"musicinfo":[{"id":1026959,"errorCode":0,"duration":3690039,"lyric":"","album":"","title":"清明上河图","artist":"本地","hdImgUrl":"","isCollected":false,"url":"http://10.0.0.4:8888/music/./2019/清明上河图.mp3"}],"totalTime":10,"pagesize":1,"errorCode":0,"page":"1","source":1,"dataSourceName":"我的音乐"}},"originIntent":{"nluSlotInfos":[]},"history":"cn.yunzhisheng.music","source":"nlu","uniCarRet":{"result":[],"returnCode":609,"message":"aios-home.hivoice.cn"},"asr_recongize":"清明上河图","rc":0,"general":{"actionAble":"true","quitDialog":"true","text":"清明上河图","type":"T"},"returnCode":0,"audioUrl":"http://asrv3.hivoice.cn/trafficRouter/r/wMgclE","retTag":"nlu","service":"cn.yunzhisheng.music","nluProcessTime":"106","text":"清明上河图","responseId":"e490d9576c5b438c8283a6e71cdba997"}
+[11-13 08:51:51.422] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"}}
+[11-13 08:51:51.422] processNasCmd, has no semantic body
+[11-13 08:51:51.422] processNasMedia, has no semantic body
+[11-13 08:51:51.422] isMusic text:
+[11-13 08:51:51.422] isMusic false
+[11-13 08:51:51.422] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":[],"returnCode":609,"message":"http post reuqest error"}}
+[11-13 08:51:51.849] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:51.849] processNasCmd, has no semantic body
+[11-13 08:51:51.849] processNasMedia, has no semantic body
+[11-13 08:51:51.849] isMusic text:
+[11-13 08:51:51.849] isMusic false
+[11-13 08:51:51.849] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:52.170] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:52.170] processNasCmd, has no semantic body
+[11-13 08:51:52.170] processNasMedia, has no semantic body
+[11-13 08:51:52.170] isMusic text:
+[11-13 08:51:52.170] isMusic false
+[11-13 08:51:52.170] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:52.464] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:52.464] processNasCmd, has no semantic body
+[11-13 08:51:52.464] processNasMedia, has no semantic body
+[11-13 08:51:52.464] isMusic text:
+[11-13 08:51:52.464] isMusic false
+[11-13 08:51:52.464] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:52.723] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:52.723] processNasCmd, has no semantic body
+[11-13 08:51:52.723] processNasMedia, has no semantic body
+[11-13 08:51:52.723] isMusic text:
+[11-13 08:51:52.723] isMusic false
+[11-13 08:51:52.723] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:53.028] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:53.028] processNasCmd, has no semantic body
+[11-13 08:51:53.028] processNasMedia, has no semantic body
+[11-13 08:51:53.028] isMusic text:
+[11-13 08:51:53.028] isMusic false
+[11-13 08:51:53.028] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:53.370] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: w
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:53.370] processNasCmd, has no semantic body
+[11-13 08:51:53.370] processNasMedia, has no semantic body
+[11-13 08:51:53.370] isMusic text:
+[11-13 08:51:53.370] isMusic false
+[11-13 08:51:53.370] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: w
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:53.640] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: x
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:53.641] processNasCmd, has no semantic body
+[11-13 08:51:53.641] processNasMedia, has no semantic body
+[11-13 08:51:53.641] isMusic text:
+[11-13 08:51:53.641] isMusic false
+[11-13 08:51:53.641] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: x
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:53.966] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: y
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:53.966] processNasCmd, has no semantic body
+[11-13 08:51:53.966] processNasMedia, has no semantic body
+[11-13 08:51:53.967] isMusic text:
+[11-13 08:51:53.967] isMusic false
+[11-13 08:51:53.967] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: y
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:54.266] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: z
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:54.266] processNasCmd, has no semantic body
+[11-13 08:51:54.266] processNasMedia, has no semantic body
+[11-13 08:51:54.266] isMusic text:
+[11-13 08:51:54.266] isMusic false
+[11-13 08:51:54.266] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: z
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:54.659] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rq
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:54.659] processNasCmd, has no semantic body
+[11-13 08:51:54.659] processNasMedia, has no semantic body
+[11-13 08:51:54.659] isMusic text:
+[11-13 08:51:54.659] isMusic false
+[11-13 08:51:54.660] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rq
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:54.800] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rr
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:54.800] processNasCmd, has no semantic body
+[11-13 08:51:54.801] processNasMedia, has no semantic body
+[11-13 08:51:54.801] isMusic text:
+[11-13 08:51:54.801] isMusic false
+[11-13 08:51:54.801] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rr
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:55.071] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rs
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:55.072] processNasCmd, has no semantic body
+[11-13 08:51:55.072] processNasMedia, has no semantic body
+[11-13 08:51:55.072] isMusic text:
+[11-13 08:51:55.072] isMusic false
+[11-13 08:51:55.072] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rs
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:55.406] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rt
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:55.412] processNasCmd, has no semantic body
+[11-13 08:51:55.413] processNasMedia, has no semantic body
+[11-13 08:51:55.413] isMusic text:
+[11-13 08:51:55.413] isMusic false
+[11-13 08:51:55.413] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rt
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:55.750] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: ru
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:55.750] processNasCmd, has no semantic body
+[11-13 08:51:55.750] processNasMedia, has no semantic body
+[11-13 08:51:55.750] isMusic text:
+[11-13 08:51:55.750] isMusic false
+[11-13 08:51:55.750] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: ru
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:56.000] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rv
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:56.000] processNasCmd, has no semantic body
+[11-13 08:51:56.000] processNasMedia, has no semantic body
+[11-13 08:51:56.000] isMusic text:
+[11-13 08:51:56.000] isMusic false
+[11-13 08:51:56.000] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rv
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:56.292] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rw
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:56.292] processNasCmd, has no semantic body
+[11-13 08:51:56.292] processNasMedia, has no semantic body
+[11-13 08:51:56.292] isMusic text:
+[11-13 08:51:56.292] isMusic false
+[11-13 08:51:56.292] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rw
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:56.514] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rx
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:56.514] processNasCmd, has no semantic body
+[11-13 08:51:56.514] processNasMedia, has no semantic body
+[11-13 08:51:56.514] isMusic text:
+[11-13 08:51:56.514] isMusic false
+[11-13 08:51:56.514] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: rx
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 0
+
+
+[11-13 08:51:56.834] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510
+RS: hHbHDiH
+PN: ry
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 9867
+
+{"semantic":{"intent":{"artist":"凯叔","keyword":"凯叔"}},"code":"SEARCH_ARTIST","data":{"result":{"total":"11","playlist":[{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group61/M02/62/61/wKgMcF1FUnWgqfA8AGTHK524wX0327.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group62/M05/5F/9F/wKgMZ11FUn2DMOn3ACaKVahNPAM578.m4a","play_count":210318,"title":"1. 查泰莱夫人的情人 第1集","url":"http://openaudio.cos.tx.xmcdn.com/group61/M02/62/61/wKgMcF1FUnKTvEUgADHbJyguzpY973.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group60/M00/D3/9D/wKgLeV1FUU6T0av4AAqIGSOkZj8629.png!op_type=3&columns=100&rows=100","duration":815,"update_time":"2019-08-03 21:09:07","url_high":"http://openaudio.cos.tx.xmcdn.com/group61/M02/62/61/wKgMcF1FUnahM3KWAGOkdVFk8O8573.mp3","id":202437489,"cover_large":"http://imgopen.xmcdn.com/group60/M00/D3/9D/wKgLeV1FUU6T0av4AAqIGSOkZj8629.png!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group62/M05/5F/A0/wKgMZ11FUoHQhNwWAGVoshF5hKs435.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group62/M05/5F/91/wKgMcV1FUoWRgJNjACbHtIxzteg740.m4a","play_count":148370,"title":"2. 查泰莱夫人的情人 第2集","url":"http://openaudio.cos.tx.xmcdn.com/group62/M05/5F/8F/wKgMcV1FUn-xs1EJADIqvpTatdE035.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group60/M00/D3/9D/wKgLeV1FUU6T0av4AAqIGSOkZj8629.png!op_type=3&columns=100&rows=100","duration":820,"update_time":"2019-08-03 21:10:21","url_high":"http://openaudio.cos.tx.xmcdn.com/group62/M05/5F/8F/wKgMcV1FUoCAqjZzAGRDo5o3aKk405.mp3","id":202437490,"cover_large":"http://imgopen.xmcdn.com/group60/M00/D3/9D/wKgLeV1FUU6T0av4AAqIGSOkZj8629.png!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group59/M00/D8/28/wKgLel1FiCrTfdCgAGjxQl_pG3E099.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group59/M00/D8/27/wKgLel1FiCih_x-hACgh7sBeWOc920.m4a","play_count":112361,"title":"4. 查泰莱夫人的情人 第4集","url":"http://openaudio.cos.tx.xmcdn.com/group59/M00/D8/26/wKgLel1FiCTAYZPlADPqFxgo0mA961.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group60/M02/D3/FC/wKgLeV1FW9qBMKICABc9YkWVIv0338.png!op_type=3&columns=100&rows=100","duration":849,"update_time":"2019-08-05 19:02:24","url_high":"http://openaudio.cos.tx.xmcdn.com/group59/M00/D0/97/wKgLeF1FiCiiQ6U8AGfCVb5ZvtU993.mp3","id":202921268,"cover_large":"http://imgopen.xmcdn.com/group60/M02/D3/FC/wKgLeV1FW9qBMKICABc9YkWVIv0338.png!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group58/M05/DB/29/wKgLgl1GTomyWLGdAHxthUlv7kc615.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group58/M05/DB/28/wKgLgl1GToiwFNz8AC-Unuotbq8846.m4a","play_count":50142,"title":"17. 查泰莱夫人的情人 第17集","url":"http://openaudio.cos.tx.xmcdn.com/group58/M05/DB/69/wKgLc11GToWSjnuMAD2KGrSWM_c990.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group59/M04/E4/1D/wKgLeF1ILXexLGtWAAKeyB1EdAI537.jpg!op_type=3&columns=100&rows=100","duration":1007,"update_time":"2019-08-18 19:00:58","url_high":"http://openaudio.cos.tx.xmcdn.com/group58/M05/DB/28/wKgLgl1GTonRIHt1AHsC1omg-mk444.mp3","id":205958545,"cover_large":"http://imgopen.xmcdn.com/group59/M04/E4/1D/wKgLeF1ILXexLGtWAAKeyB1EdAI537.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group64/M05/BD/8E/wKgMaV1rl8jgT70QAHYT-SW0K74889.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group64/M05/BD/8C/wKgMaV1rl8DDeYG3AC0nK_GRFpo486.m4a","play_count":41775,"title":"32. 查泰莱夫人的情人 第32集","url":"http://openaudio.cos.tx.xmcdn.com/group64/M00/BD/5F/wKgMc11rl8PD2pgBADpoIE-4H_c487.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group59/M04/E4/1D/wKgLeF1ILXexLGtWAAKeyB1EdAI537.jpg!op_type=3&columns=100&rows=100","duration":955,"update_time":"2019-09-02 19:03:25","url_high":"http://openaudio.cos.tx.xmcdn.com/group64/M00/BD/5F/wKgMc11rl8Cx-sL8AHS9mEgLh20678.mp3","id":209187327,"cover_large":"http://imgopen.xmcdn.com/group59/M04/E4/1D/wKgLeF1ILXexLGtWAAKeyB1EdAI537.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/6256-audiofreehighqps/3C/FD/CMCoOSQDVJbuAHRMxABbSciv.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/1890-audiofreehighqps/2E/DD/CMCoOR4DVJbmACx4jgBbScbQ.m4a","play_count":188456,"title":"1. 骆驼祥子（凯丰播讲）第一章（上）","url":"http://openaudio.cos.tx.xmcdn.com/storages/3d5e-audiofreehighqps/7A/C6/CMCoOR4DVJbkADmGaQBbScaI.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group59/M05/D1/32/wKgLelzQ4ZjSO_NFAACzZttYz1Q407.jpg!op_type=3&columns=100&rows=100","duration":941,"update_time":"2020-10-08 16:59:55","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/1bf5-audiofreehighqps/12/C2/CMCoOR4DVJbnAHL6KgBbSccP.mp3","id":181982925,"cover_large":"http://imgopen.xmcdn.com/group59/M05/D1/32/wKgLelzQ4ZjSO_NFAACzZttYz1Q407.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group59/M01/E4/D7/wKgLelzRkhmSBNZwALMHVzVARBU917.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group60/M05/E4/2F/wKgLb1zRpZTAQapJAER01Md7cpQ346.m4a","play_count":69661,"title":"5. 骆驼祥子（凯丰播讲）第三章（上）","url":"http://openaudio.cos.tx.xmcdn.com/group60/M02/E3/B9/wKgLeVzRmsfgVcF1AFh0xmwhsCc916.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group60/M01/1E/C4/wKgLb1zVDdzjwrNuAADx-_Gk0uE898.jpg!op_type=3&columns=100&rows=100","duration":1449,"update_time":"2019-05-14 15:02:02","url_high":"http://openaudio.cos.tx.xmcdn.com/group58/M0B/E3/A1/wKgLglzRk3KDwjqqALDpQ7deYo0950.mp3","id":183370991,"cover_large":"http://imgopen.xmcdn.com/group60/M01/1E/C4/wKgLb1zVDdzjwrNuAADx-_Gk0uE898.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/357f-audiofreehighqps/D8/2B/CMCoOSYDVJb9AHmSQgBbSczy.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/6ba3-audiofreehighqps/E5/5D/CMCoOSUDVJb6AC58fQBbScwR.m4a","play_count":99262,"title":"2. 骆驼祥子（凯丰播讲）第一章（下）","url":"http://openaudio.cos.tx.xmcdn.com/storages/ed8f-audiofreehighqps/0D/80/CMCoOSUDVJb5ADwhWgBbScu6.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group59/M05/D1/32/wKgLelzQ4ZjSO_NFAACzZttYz1Q407.jpg!op_type=3&columns=100&rows=100","duration":983,"update_time":"2020-10-08 16:59:55","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/9f12-audiofreehighqps/4E/D8/CMCoOSMDVJb3AHgwCwBbSctP.mp3","id":182142715,"cover_large":"http://imgopen.xmcdn.com/group59/M05/D1/32/wKgLelzQ4ZjSO_NFAACzZttYz1Q407.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/group59/M00/EB/E3/wKgLeFzSLXWwoMH9AJYFsHn1t0Q714.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/group58/M07/EA/BD/wKgLc1zSLY3yqr9lADldwG0QA74898.m4a","play_count":45202,"title":"11. 骆驼祥子（凯丰播讲）第六章（上）","url":"http://openaudio.cos.tx.xmcdn.com/group59/M00/EB/E7/wKgLeFzSLYTDEOT-AEofY8DpwEI915.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group60/M01/1E/C4/wKgLb1zVDdzjwrNuAADx-_Gk0uE898.jpg!op_type=3&columns=100&rows=100","duration":1214,"update_time":"2019-05-25 19:08:27","url_high":"http://openaudio.cos.tx.xmcdn.com/group58/M07/EA/BD/wKgLc1zSLYqg8FT0AJQ-fdZmfHM283.mp3","id":186372973,"cover_large":"http://imgopen.xmcdn.com/group60/M01/1E/C4/wKgLb1zVDdzjwrNuAADx-_Gk0uE898.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/f97a-audiofreehighqps/7F/A9/CMCoOScDbJq7AGISEwBg1_fK.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/8b40-audiofreehighqps/7E/37/CMCoOScDbJq4ACWAegBg1_WB.m4a","play_count":77705,"title":"3. 骆驼祥子（凯丰播讲）第二章（上）","url":"http://openaudio.cos.tx.xmcdn.com/storages/5b1f-audiofreehighqps/1F/82/CMCoOR4DbJq8ADCEsgBg1_hd.mp3","tags":"","cover":"http://imgopen.xmcdn.com/group59/M05/D1/32/wKgLelzQ4ZjSO_NFAACzZttYz1Q407.jpg!op_type=3&columns=100&rows=100","duration":793,"update_time":"2020-10-26 23:11:04","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/8631-audiofreehighqps/B5/4C/CMCoOSIDbJq4AGD2vABg1_Wb.mp3","id":182401372,"cover_large":"http://imgopen.xmcdn.com/group59/M05/D1/32/wKgLelzQ4ZjSO_NFAACzZttYz1Q407.jpg!op_type=3&columns=640&rows=640"},{"url_m4a_high":"http://openaudio.cos.tx.xmcdn.com/storages/bd41-audiofreehighqps/76/39/CKwRIUEFF8ifADD-IwDja_uB.m4a","episode":1,"urlm4a":"http://openaudio.cos.tx.xmcdn.com/storages/4aa4-audiofreehighqps/35/BC/CKwRIUEFF8jfABK_ZQDjbBal.m4a","play_count":19301,"title":"新中国第一面五星红旗（公益讲述人：凯叔）","url":"http://openaudio.cos.tx.xmcdn.com/storages/67c3-audiofreehighqps/43/87/CKwRIUEFF8jtABgzRgDjbBxA.mp3","tags":"","cover":"http://imgopen.xmcdn.com/storages/172d-audiofreehighqps/A9/4D/CMCoOR4EsK_VAAMPTgDAa2U6.jpeg!op_type=3&columns=100&rows=100","duration":396,"update_time":"2021-09-22 10:30:00","url_high":"http://openaudio.cos.tx.xmcdn.com/storages/88b5-audiofreehighqps/F6/2B/CKwRINsFF8j5ADBljwDjbCEA.mp3","id":453864770,"cover_large":"http://imgopen.xmcdn.com/storages/172d-audiofreehighqps/A9/4D/CMCoOR4EsK_VAAMPTgDAa2U6.jpeg!op_type=3&columns=640&rows=640"}],"totalTime":2,"pagesize":"30","errorCode":0,"page":"1","source":1,"dataSourceName":"喜马拉雅"}},"originIntent":{"nluSlotInfos":[]},"history":"cn.yunzhisheng.audio","source":"nlu","uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"},"asr_recongize":"播放凯叔讲成语。","rc":0,"general":{"actionAble":"true","quitDialog":"true","text":"为您播放:凯叔","type":"T"},"returnCode":0,"audioUrl":"http://asrv3.hivoice.cn/trafficRouter/r/AVaZhB","retTag":"nlu","service":"cn.yunzhisheng.audio","nluProcessTime":"275","text":"播放凯叔讲成语","responseId":"169889d2537344f29db5cbaab95aa8b6"}
+[11-13 08:51:56.835] cleanString:播放凯叔讲成语
+[11-13 08:51:56.835] processCtrlCommand:播放凯叔讲成语
+[11-13 08:51:56.835] cleanString:播放凯叔讲成语
+[11-13 08:51:56.835] processPlayCommand:播放凯叔讲成语
+[11-13 08:51:56.835] getMatchedAudio prepare to find match text:凯叔讲成语
+[11-13 08:51:56.835] getMatchedAudio prepare to find match name:凯叔讲成语 specified_singer: seq:
+[11-13 08:51:56.835] getItemOfSpecified, name:凯叔讲成语 seq:
+[11-13 08:51:56.835] getNameFromItem:./凯叔讲成语/002盲人摸象.mp3
+[11-13 08:51:56.835] getSeqFromItem:./凯叔讲成语/002盲人摸象.mp3 seq:2
+[11-13 08:51:56.835] getItemOfSpecified, new name:凯叔讲成语new seq:3
+[11-13 08:51:56.836] found item:./凯叔讲成语/002盲人摸象.mp3
+[11-13 08:51:56.836] setSemanticFormat, current_audio:./凯叔讲成语/002盲人摸象.mp3
+[11-13 08:51:56.836] getNameFromItem:./凯叔讲成语/002盲人摸象.mp3
+[11-13 08:51:56.836] getSeqFromItem:./凯叔讲成语/002盲人摸象.mp3 seq:2
+[11-13 08:51:56.836] cleanString:002盲人摸象
+[11-13 08:51:56.836] getNameFromItem:./凯叔讲成语/002盲人摸象.mp3
+[11-13 08:51:56.836] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510
+RS: hHbHDiH
+PN: ry
+Date: 
+Server: 
+SID: NwzrqRPuRsOyqPPSsyRuRyNtsQyOrzvP
+Content-Length: 953
+
+{"semantic":{"intent":{"artist":"凯叔","keyword":"凯叔"}},"code":"SEARCH_CATEGORY","data":{"result":{"count":1,"musicinfo":[{"id":5735013,"errorCode":0,"duration":16457,"lyric":"","album":"","title":"002盲人摸象","artist":"本地","hdImgUrl":"","isCollected":false,"url":"http://10.0.0.4:8888/music/./凯叔讲成语/002盲人摸象.mp3"}],"totalTime":10,"pagesize":1,"errorCode":0,"page":"1","source":1,"dataSourceName":"我的音乐"}},"originIntent":{"nluSlotInfos":[]},"history":"cn.yunzhisheng.music","source":"nlu","uniCarRet":{"result":[],"returnCode":609,"message":"aios-home.hivoice.cn"},"asr_recongize":"凯叔讲成语","rc":0,"general":{"actionAble":"true","quitDialog":"true","text":"凯叔讲成语","type":"T"},"returnCode":0,"audioUrl":"http://asrv3.hivoice.cn/trafficRouter/r/wMgclE","retTag":"nlu","service":"cn.yunzhisheng.music","nluProcessTime":"106","text":"凯叔讲成语","responseId":"e490d9576c5b438c8283a6e71cdba997"}
+[11-13 08:52:05.139] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"}}
+[11-13 08:52:05.140] processNasCmd, has no semantic body
+[11-13 08:52:05.140] processNasMedia, has no semantic body
+[11-13 08:52:05.140] isMusic text:
+[11-13 08:52:05.140] isMusic false
+[11-13 08:52:05.140] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+RS: GeLdJ
+PN: q
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 95
+
+{"returnCode":0,"uniCarRet":{"result":[],"returnCode":609,"message":"http post reuqest error"}}
+[11-13 08:52:05.562] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 0
+
+
+[11-13 08:52:05.562] processNasCmd, has no semantic body
+[11-13 08:52:05.562] processNasMedia, has no semantic body
+[11-13 08:52:05.562] isMusic text:
+[11-13 08:52:05.562] isMusic false
+[11-13 08:52:05.562] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: r
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 0
+
+
+[11-13 08:52:05.859] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 0
+
+
+[11-13 08:52:05.860] processNasCmd, has no semantic body
+[11-13 08:52:05.860] processNasMedia, has no semantic body
+[11-13 08:52:05.860] isMusic text:
+[11-13 08:52:05.860] isMusic false
+[11-13 08:52:05.860] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: s
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 0
+
+
+[11-13 08:52:06.343] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 0
+
+
+[11-13 08:52:06.344] processNasCmd, has no semantic body
+[11-13 08:52:06.344] processNasMedia, has no semantic body
+[11-13 08:52:06.344] isMusic text:
+[11-13 08:52:06.344] isMusic false
+[11-13 08:52:06.344] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: t
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 0
+
+
+[11-13 08:52:06.526] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 0
+
+
+[11-13 08:52:06.526] processNasCmd, has no semantic body
+[11-13 08:52:06.526] processNasMedia, has no semantic body
+[11-13 08:52:06.526] isMusic text:
+[11-13 08:52:06.526] isMusic false
+[11-13 08:52:06.526] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: u
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 0
+
+
+[11-13 08:52:06.527] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 0
+
+
+[11-13 08:52:06.527] processNasCmd, has no semantic body
+[11-13 08:52:06.527] processNasMedia, has no semantic body
+[11-13 08:52:06.527] isMusic text:
+[11-13 08:52:06.527] isMusic false
+[11-13 08:52:06.527] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510-8N4
+RS: GeLdJ
+PN: v
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 0
+
+
+[11-13 08:52:06.935] <<<<<< recv data from asr server:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510
+RS: hHbHDiH
+PN: w
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 534
+
+{"code":"ANSWER","originIntent":{"nluSlotInfos":[]},"history":"cn.yunzhisheng.chat","source":"krc","uniCarRet":{"result":{},"returnCode":609,"message":"http post reuqest error"},"asr_recongize":"听一下吧。","rc":0,"general":{"mood":"中性","style":"HIGH_QUALITY","text":"那好吧，那我就跟你讲一下吧"},"returnCode":0,"audioUrl":"http://asrv3.hivoice.cn/trafficRouter/r/oAcqMB","retTag":"nlu","service":"cn.yunzhisheng.chat","nluProcessTime":"318","text":"听一下吧","responseId":"ae1847bad25a42a4b084462121a561e7"}
+[11-13 08:52:06.936] processNasCmd, has no semantic body
+[11-13 08:52:06.936] processNasMedia, has no semantic body
+[11-13 08:52:06.936] isMusic text:听一下吧
+[11-13 08:52:06.936] isMusic: false
+[11-13 08:52:06.936] >>>>>>>> send data to R1:
+HTTP/1.1 200 
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+CT: W510
+RS: hHbHDiH
+PN: w
+Date: 
+Server: 
+SID: qzxNzxROxNOQrNwRuzuwzQSwusQvqytq
+Content-Length: 534
+
+{"code":"ANSWER","originIntent":{"nluSlotInfos":[]},"history":"cn.yunzhisheng.chat","source":"krc","uniCarRet":{"result":[],"returnCode":609,"message":"http post reuqest error"},"asr_recongize":"听一下吧。","rc":0,"general":{"mood":"中性","style":"HIGH_QUALITY","text":"那好吧，那我就跟你讲一下吧"},"returnCode":0,"audioUrl":"http://asrv3.hivoice.cn/trafficRouter/r/oAcqMB","retTag":"nlu","service":"cn.yunzhisheng.chat","nluProcessTime":"318","text":"听一下吧","responseId":"ae1847bad25a42a4b084462121a561e7"}

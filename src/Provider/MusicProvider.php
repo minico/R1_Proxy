@@ -5,6 +5,7 @@ use App\Provider\Music\Format;
 use App\Provider\Music\NasMedia;
 use App\Provider\Music\Netease;
 use App\Util\DataUtil;
+use App\Util\Logs;
 
 class MusicProvider
 {
@@ -17,7 +18,6 @@ class MusicProvider
     public function __construct()
     {
         $this->nasMedia = new NasMedia();
-        //$this->nasMedia->loadPlayList();
     }
 
     public function onRecvData($data)
@@ -34,9 +34,9 @@ class MusicProvider
     {
         $body = $this->dataUtil->getBody();
         print_r($body);
-        echo "isMusic text:" . $body['text'] . PHP_EOL;
+        Logs::log("isMusic text:" . $body['text']);
         if (empty($body) || !isset($body['code']) || !isset($body['text'])) {
-            echo "isMusic false" . PHP_EOL;
+            Logs::log("isMusic false");
             return false;
         }
         /*
@@ -52,23 +52,23 @@ class MusicProvider
 
         if (preg_match('#^播放(.*)的歌$#isuU', $body['text'], $matched)) {
             $this->keyword = $matched[1];
-            echo "isMusic 播放xxx的歌" . PHP_EOL;
+            Logs::log("isMusic 播放xxx的歌");
             return true;
         }
 
         if (preg_match('#^播放(.*?)的(.*)#isu', $body['text'], $matched)) {
             $this->keyword = $matched[2] . ' ' . $matched[1];
-            echo "isMusic 播放xxx的xxxx" . PHP_EOL;
+            Logs::log("isMusic 播放xxx的xxxx");
             return true;
         }
 
         if (preg_match('#^播放(.*?)#isuU', $body['text'], $matched)) {
             $this->keyword = $matched[1];
-            echo "isMusic 播放xxx" . PHP_EOL;
+            Logs::log("isMusic 播放xxx");
             return true;
         }
 
-        echo "isMusic: false" . PHP_EOL;
+        Logs::log("isMusic: false");
         return false;
     }
 
@@ -76,7 +76,7 @@ class MusicProvider
     {
         $body = $this->dataUtil->getBody();
         if (!isset($body['semantic'])) {
-            echo "processNasCmd, has no semantic body" . PHP_EOL;
+            Logs::log("processNasCmd, has no semantic body");
             print_r($body);
             //$this->dataUtil->generateCodeBody();
             return false;
@@ -96,15 +96,12 @@ class MusicProvider
     {
         $body = $this->dataUtil->getBody();
         if (!isset($body['semantic'])) {
-            echo "processNasMedia, has no semantic body" . PHP_EOL;
-            print_r($body);
-
+            Logs::log("processNasMedia, has no semantic body");
+            //print_r($body);
             if (isset($body['text']) && preg_match('#^播放(.*)#isu', $body['text'], $matched)) {
-                //$text = $body['text']; // save the original text
                 $this->dataUtil->generateSemanticBody($body['text']);
                 $body = $this->dataUtil->getBody();
-                //$body['text'] = $text; // replace with the orignal text
-                print_r($body);
+                //print_r($body);
             } else {
                 return false;
             }
@@ -122,7 +119,7 @@ class MusicProvider
 
     public function search()
     {
-        echo "search internet with key word:" . $this->keyword . PHP_EOL;
+        Logs::log("search internet with key word:" . $this->keyword);
         if ($this->isMusic() && !empty($this->keyword)) {
             $body = $this->dataUtil->getBody();
             $format = new Format();
@@ -131,7 +128,7 @@ class MusicProvider
             (new Netease())->search($this->keyword, $format);
             $this->dataUtil->setBody($format->getData());
         } else {
-            echo "search from internet, not music command" . PHP_EOL;
+            Logs::log("search from internet, not music command or keyword is empty.");
         }
     }
 }
