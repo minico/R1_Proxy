@@ -130,8 +130,8 @@ class NasMedia
 
     private function getSeqFromItem($item)
     {
-        if (preg_match('/(0*)([0-9]+)/u', $item, $matched)) {
-            $seq = $matched[2];
+        if (preg_match_all('/(\d?\.?\d+)/', $item, $matched)) {
+            $seq = $matched[0][count($matched[0]) - 2];
             if ($seq < 1000) { //忽略一些年份信息的数字，比如2009，2019等
                 Logs::log("getSeqFromItem:" . $item . " seq:" . $seq);
                 return $seq;
@@ -332,6 +332,7 @@ class NasMedia
         Logs::log("getItemOfSpecified, name:" . $name . " seq:" . $seq);
         foreach ($this->history_list as $item) {
             if (empty($seq) && !empty($name) && strstr($item, $name)) {
+                Logs::log("getItemOfSpecified, found in history");
                 $name = $this->getNameFromItem($item);
                 $seq = $this->getSeqFromItem($item);
                 if ($seq !== false) {
@@ -342,10 +343,10 @@ class NasMedia
             }
         }
 
-        Logs::log("getItemOfSpecified, new name:" . $name . "new seq:" . $seq);
+        Logs::log("getItemOfSpecified, new name:" . $name . " new seq:" . $seq);
 
         foreach ($this->media_list as $item) {
-            if (preg_match('#(.*)' . $name . '(.*)0*' . $seq . '(.*)#isuU', $item, $matched)) {
+            if (preg_match('#(.*)' . $name . '(.*)0*' . $seq . '(.*)mp3#isuU', $item, $matched)) {
                 $this->current_audio = $item;
                 Logs::log("found item:" . $item);
                 if ($seq !== false) {
