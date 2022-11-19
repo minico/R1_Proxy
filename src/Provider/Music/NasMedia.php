@@ -131,10 +131,12 @@ class NasMedia
     private function getSeqFromItem($item)
     {
         if (preg_match_all('/(\d?\.?\d+)/', $item, $matched)) {
-            $seq = $matched[0][count($matched[0]) - 2];
-            if ($seq < 1000) { //忽略一些年份信息的数字，比如2009，2019等
-                Logs::log("getSeqFromItem:" . $item . " seq:" . $seq);
-                return $seq;
+            if (count($matched[0]) > 1) {
+                $seq = $matched[0][count($matched[0]) - 2]; // ignore the last digit '3' match in "mp3"
+                if ($seq < 1000) { //忽略一些年份信息的数字，比如2009，2019等
+                    Logs::log("getSeqFromItem:" . $item . " seq:" . $seq);
+                    return $seq;
+                }
             }
         }
         Logs::log("getSeqFromItem:" . $item . ", no seq found, return false");
@@ -359,6 +361,27 @@ class NasMedia
         return false;
     }
 
+    private function generatePlayList() {
+        Logs::log("generatePlayList, current_audio:" . $this->current_audio);
+        if (empty($this->current_audio)) {
+            return false;
+        }
+
+        $play_list = array();
+        $i = 0;
+        if (($key = array_search($this->current_audio, ($this->media_list))) != NULL) {
+            while ($i < 20) {
+                $idx = $key + $i++;
+                if ($idx < count($this->media_list)) {
+                    array_push($play_list, $this->media_list[$idx]);
+                    Logs::log("generatePlayList, add:" . $this->media_list[$idx]);
+                }
+            }
+		}
+
+        return $play_list;
+    }
+
     public function getMatchedAudio($asr_result)
     {
         $name = "";
@@ -476,26 +499,32 @@ class NasMedia
             return $format;
         }
 
-        $name = $this->getNameFromItem($this->current_audio);
-        $seq = $this->getSeqFromItem($this->current_audio);
-
-        $item = new Item();
-        $item->setAlbum("");
-
-        $item->setTitle($this->cleanString($this->getBaseName($this->current_audio)));
-        $item->setArtist("本地");
-        $item->setHdImgUrl("");
-        $item->setLyric("");
-        $item->setIsCollected(false);
-        $item->setUrl($this->NAS_URL . $this->current_audio);
-
+        $play_list = $this->generatePlayList();
         $musiclist = new ItemList();
-        $musiclist->setDataList($item);
+        if ($play_list !== false) {
+            foreach ($play_list as $audio_item) {
+                $name = $this->getNameFromItem($audio_item);
+                $seq = $this->getSeqFromItem($audio_item);
+        
+                $item = new Item();
+                $item->setAlbum("");
+        
+                $item->setTitle($this->cleanString($this->getBaseName($audio_item)));
+                $item->setArtist("本地");
+                $item->setHdImgUrl("");
+                $item->setLyric("");
+                $item->setIsCollected(false);
+                $item->setUrl($this->NAS_URL . $audio_item);
+        
+                $musiclist->addItem($item);
+            }
+            
+            $format->setPageSize(1);
+            $format->setTotal(count($play_list));
+            $format->setDataList($musiclist);
+            $format->setText($name)->setAsrText($name);
+        }
 
-        $format->setPageSize(1);
-        $format->setTotal(1);
-        $format->setDataList($musiclist);
-        $format->setText($name)->setAsrText($name);
         return $format;
     }
 }

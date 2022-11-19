@@ -45,7 +45,7 @@ class Netease
             return $format;
         }
         $format->setPageSize($pageSize);
-        $coount = 0;
+        $count = 0;
         $musiclist = new ItemList();
         foreach($songsInfo['result']['songs'] as $song) {
             if ($song['privilege']['fl'] == 0) { //无版权
@@ -63,10 +63,10 @@ class Netease
             $item->setLyric('');
             $item->setIsCollected(false);
             $item->setUrl($url);
-            $musiclist->setDataList($item);
-            $coount++;
+            $musiclist->addItem($item);
+            $count++;
         }
-        $format -> setTotal($coount);
+        $format->setTotal($count);
         $format->setDataList($musiclist);
         return $format;
     }

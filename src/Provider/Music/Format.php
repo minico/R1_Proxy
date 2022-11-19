@@ -117,7 +117,7 @@ class Format
 class ItemList {
     private $data = [];
 
-    public function setDataList(Item $data) {
+    public function addItem(Item $data) {
         $item = $data->getData();
         if (empty($item['url'])) {
             return false;

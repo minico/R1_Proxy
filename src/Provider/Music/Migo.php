@@ -55,7 +55,7 @@ class Migo
             $item->setLyric($music['lyrics']);
             $item->setIsCollected(false);
             $item->setUrl($music['mp3']);
-            $musiclist->setDataList($item);
+            $musiclist->addItem($item);
         }
         $format->setDataList($musiclist);
         return $format;
