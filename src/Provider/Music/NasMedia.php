@@ -121,6 +121,12 @@ class NasMedia
     private function getNameFromItem($item)
     {
         Logs::log("getNameFromItem:" . $item);
+        $paths = explode("/", $item);
+        if (count($paths) > 1) {
+            $item = $paths[count($paths)-2].$paths[count($paths)-1];
+        }
+        Logs::log("getNameFromItem after split path:" . $item);
+
         if (preg_match('/[\x{4e00}-\x{9fa5}]+/u', $item, $matched)) {
             $name = $matched[0];
             return $name;
@@ -130,6 +136,13 @@ class NasMedia
 
     private function getSeqFromItem($item)
     {
+        Logs::log("getSeqFromItem:" . $item);
+        $paths = explode("/", $item);
+        if (count($paths) > 1) {
+            $item = $paths[count($paths)-2].$paths[count($paths)-1];
+        }
+        Logs::log("getSeqFromItem after split path:" . $item);
+
         if (preg_match_all('/(\d?\.?\d+)/', $item, $matched)) {
             if (count($matched[0]) > 1) {
                 $seq = $matched[0][count($matched[0]) - 2]; // ignore the last digit '3' match in "mp3"
