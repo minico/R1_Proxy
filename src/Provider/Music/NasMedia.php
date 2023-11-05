@@ -18,8 +18,8 @@ class NasMedia
     private $SPEECH_TEXT_LIST_COMMANDS = "你支持哪些命令";
     private $SPEECH_TEXT_NOT_FOUND = "抱歉，没有找到";
 
-    //public static $NAS_URL = "http://192.168.1.4/music/";
-    private $NAS_URL = "http://10.0.0.4:8888/music/";
+    private $NAS_URL = "http://192.168.1.4/music/";
+    //private $NAS_URL = "http://10.0.0.4:8888/music/";
     private $PLAY_LIST_FILE = "play_list.txt";
     private $HISTORY_LIST_FILE = "history_list.txt";
     private $FAVORITE_LIST_FILE = "favorite_list.txt";
