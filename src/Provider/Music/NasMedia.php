@@ -171,8 +171,15 @@ class NasMedia
             Logs::log("play list downloaded successfully, total count:" . count($this->media_list));
             return true;
         } else {
-            Logs::log("play list downloading failed.");
-            return false;
+            $res = file_get_contents($this->PLAY_LIST_FILE);
+            if ($res) {
+                $this->media_list = explode("\n", $res);
+                Logs::log("play list was loaded from local cache, total count:" . count($this->media_list));
+                return true;
+            } else {
+                Logs::log("play list downloading failed.");
+                return false;
+            }
         }
     }
 
