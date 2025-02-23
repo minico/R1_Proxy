@@ -18,7 +18,7 @@ class NasMedia
     private $SPEECH_TEXT_LIST_COMMANDS = "你支持哪些命令";
     private $SPEECH_TEXT_NOT_FOUND = "抱歉，没有找到";
 
-    private $NAS_URL = "http://192.168.1.4/music/";
+    private $NAS_URL = "http://192.168.1.4/";
     //private $NAS_URL = "http://10.0.0.4:8888/music/";
     private $PLAY_LIST_FILE = "play_list.txt";
     private $HISTORY_LIST_FILE = "history_list.txt";
@@ -62,6 +62,11 @@ class NasMedia
         $file_name = preg_replace('/^.+[\\\\\\/]/', '', $file_path);
         $base_name = str_replace(strrchr($file_name, "."), "", $file_name);
         return $base_name;
+    }
+
+    private function urlEncode($item)
+    {
+        return str_replace(" ", "%20", $item);
     }
 
     private function isChineseNum($num)
@@ -265,7 +270,7 @@ class NasMedia
             }
             $this->current_audio = $tmpList[$key + 1];
             Logs::log("getNext, return current_audio:" . $this->current_audio);
-            return $this->NAS_URL . $this->current_audio;
+            return $this->NAS_URL . $this->urlEncode($this->current_audio);
         }
         return false;
     }
@@ -298,7 +303,7 @@ class NasMedia
             }
             $this->current_audio = $tmpList[$key - 1];
             Logs::log("getPrevious, return current_audio:" . $this->current_audio);
-            return $this->NAS_URL . $this->current_audio;
+            return $this->NAS_URL . $this->urlEncode($this->current_audio);
         }
         return false;
     }
@@ -307,7 +312,7 @@ class NasMedia
     {
         $this->current_audio = $this->media_list[rand(0, count($this->media_list))];
         Logs::log("getRandomAudio, current_audio:" . $this->current_audio);
-        return $this->NAS_URL . $this->current_audio;
+        return $this->NAS_URL . $this->urlEncode($this->current_audio);
     }
 
     public function getFirstFavorite()
@@ -316,7 +321,7 @@ class NasMedia
             $this->playing_favorite = true;
             $this->current_audio = $this->favorite_list[0];
             Logs::log("getFirstFavorite, current_audio:" . $this->current_audio);
-            return $this->NAS_URL . $this->current_audio;
+            return $this->NAS_URL . $this->urlEncode($this->current_audio);
         }
         return false;
     }
@@ -335,7 +340,7 @@ class NasMedia
         if (count($singerList) > 0) {
             $this->current_audio = $singerList[rand(0, count($singerList) - 1)];
             Logs::log("getItemOfSinger found:" . $this->current_audio);
-            return $this->NAS_URL . $this->current_audio;
+            return $this->NAS_URL . $this->urlEncode($this->current_audio);
         }
 
         Logs::log("getItemOfSinger, no item found");
@@ -367,7 +372,7 @@ class NasMedia
                 if ($seq !== false) {
                     $this->playing_series = true;
                 }
-                return $this->NAS_URL . $this->current_audio;
+                return $this->NAS_URL . $this->urlEncode($this->current_audio);
             }
         }
         Logs::log("getItemOfSpecified, no item found");
@@ -527,7 +532,7 @@ class NasMedia
                 $item->setHdImgUrl("");
                 $item->setLyric("");
                 $item->setIsCollected(false);
-                $item->setUrl($this->NAS_URL . $audio_item);
+                $item->setUrl($this->NAS_URL . $this->urlEncode($audio_item));
         
                 $musiclist->addItem($item);
             }
