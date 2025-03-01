@@ -7,38 +7,34 @@ use App\Provider\Music\Netease;
 use App\Util\DataUtil;
 use App\Util\Logs;
 
-class MusicProvider
-{
+class MusicProvider {
     private $dataUtil;
 
     private $keyword;
 
     private $nasMedia;
 
-    public function __construct()
-    {
+    public function __construct() {
         $this->nasMedia = new NasMedia();
     }
 
-    public function onRecvData($data)
-    {
+    public function onRecvData($data) {
         $this->dataUtil = new DataUtil($data);
     }
 
-    public function buildData()
-    {
+    public function buildData() {
         return $this->dataUtil->build();
     }
 
-    public function isMusic()
-    {
+    public function isMusic() {
         $body = $this->dataUtil->getBody();
-        print_r($body);
-        Logs::log("isMusic text:" . $body['text']);
+        //print_r("isMusic, body:" . $body);
         if (empty($body) || !isset($body['code']) || !isset($body['text'])) {
-            Logs::log("isMusic false");
+            //Logs::log("isMusic false");
             return false;
         }
+
+        Logs::log("isMusic text:" . $body['text']);
         /*
         if ($body['code'] === 'SEARCH_ARTIST') {
             $this->keyword = $body['semantic']['intent']['keyword'];
@@ -72,12 +68,11 @@ class MusicProvider
         return false;
     }
 
-    public function processNasCmd()
-    {
+    public function processNasCmd() {
         $body = $this->dataUtil->getBody();
         if (!isset($body['semantic'])) {
-            Logs::log("processNasCmd, has no semantic body");
-            print_r($body);
+            //Logs::log("processNasCmd, has no semantic body");
+            //print_r($body);
             //$this->dataUtil->generateCodeBody();
             return false;
         }
@@ -92,11 +87,10 @@ class MusicProvider
         return $res;
     }
 
-    public function searchNasMedia()
-    {
+    public function searchNasMedia() {
         $body = $this->dataUtil->getBody();
         if (!isset($body['semantic'])) {
-            Logs::log("processNasMedia, has no semantic body");
+            //Logs::log("processNasMedia, has no semantic body");
             //print_r($body);
             if (isset($body['text']) && preg_match('#^播放(.*)#isu', $body['text'], $matched)) {
                 $this->dataUtil->generateSemanticBody($body['text']);
@@ -117,8 +111,7 @@ class MusicProvider
         return $res;
     }
 
-    public function search()
-    {
+    public function search() {
         Logs::log("search internet with key word:" . $this->keyword);
         if ($this->isMusic() && !empty($this->keyword)) {
             $body = $this->dataUtil->getBody();
@@ -130,5 +123,12 @@ class MusicProvider
         } else {
             Logs::log("search from internet, not music command or keyword is empty.");
         }
+    }
+
+    public function testCommand($cmd) {
+        Logs::log("testCommand:" . $cmd);
+        $format = new Format();
+        $res = $this->nasMedia->processPlayCommand($cmd, $format);
+        Logs::log("testCommand res:" . $res);
     }
 }

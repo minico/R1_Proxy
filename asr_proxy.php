@@ -15,13 +15,40 @@ include_once "./vendor/autoload.php";
 setlocale(LC_ALL, 'zh_CN.GBK');
 Logs::setLogPath(dirname(__FILE__) . "/logs.log");
 
-$server = new Swoole\Server('0.0.0.0', 80);
-Logs::log("server listened on port 80");
+Logs::log("Local server listened on port 80");
+
+for($i = 0; $i < $argc; $i++) {
+    echo "parameter " . $i . ":" . $argv[$i] . "\n";
+}
 
 $musicProvider = new MusicProvider();
 
-function client($server, $fd, $data)
-{
+if ($argc > 1) {
+   echo "Please input test command\n>";
+   $fin = fopen("php://stdin", "r");
+   $cmd = fgets($fin);
+   $cmd = str_replace("\n", "", $cmd);
+
+   while(strcmp($cmd, "q") != 0) {
+     if(!empty($cmd)) {
+       $musicProvider->testCommand($cmd);
+     }
+
+     echo "Please input test command\n>";
+     $fin = fopen ("php://stdin","r");
+     $cmd = fgets($fin);
+     $cmd = str_replace("\n", "", $cmd);
+   }
+
+   echo "exit test now.\n>";
+   exit();
+}
+
+$local_server = new Swoole\Server('0.0.0.0', 80);
+
+function connectAsrServer($local_server, $fd, $data) {
+    //Logs::log("Local Server: Receive data from XiaoXun, forward it to asr server.\n");
+
     $client = new Client(SWOOLE_SOCK_TCP);
     $client->set(array(
         'open_length_check' => true,
@@ -35,13 +62,17 @@ function client($server, $fd, $data)
         'package_max_length' => 1024 * 1024 * 5,
     ));
     if (!$client->connect('47.102.50.144', 80, -1)) {
-        Logs::log("connect failed. Error: {$client->errCode}\n");
-    }
+        Logs::log("Failed to connect to asr server 47.102.50.144:80. Error: {$client->errCode}\n");
+ 	return;
+    } 
+
+    //Logs::log("connected to asr server 47.102.50.144:80 successfully\n");
+
     $client->send($data);
 
     $recv = $client->recv();
 
-    Logs::log("<<<<<< recv data from asr server:\n" .$recv);
+    //Logs::log("<<<<<< recv data from asr server:\n" .$recv);
 
     global $musicProvider;
     $musicProvider->onRecvData($recv);
@@ -56,34 +87,34 @@ function client($server, $fd, $data)
 
     /*
     if ($musicProvider->isMusic()) {
-    $musicProvider->search();
+      $musicProvider->search();
     }*/
 
     $data = $musicProvider->buildData();
 
-    Logs::log(">>>>>>>> send data to R1:\n" . $data);
+    //Logs::log(">>>>>>>> forward data to XiaoXun:\n" . $data);
 
-    $server->send($fd, $data);
+    $local_server->send($fd, $data);
 
     $client->close();
 }
 
-$server->on('WorkerStart', function ($server, $workerId) {
+$local_server->on('WorkerStart', function ($local_server, $workerId) {
 //    include_once "./vendor/autoload.php";
 });
 
-$server->on('Connect', function ($server, $fd) {
-
+$local_server->on('Connect', function ($local_server, $fd) {
+    Logs::log("Local Server: Connect from XiaoXun\n");
 });
 
-$server->on('Receive', function ($server, $fd, $reactor_id, $data) {
+$local_server->on('Receive', function ($local_server, $fd, $reactor_id, $data) {
     // var_dump($data);
-    client($server, $fd, $data);
+    connectAsrServer($local_server, $fd, $data);
 });
 
-$server->on('Close', function ($server, $fd) {
-
+$local_server->on('Close', function ($local_server, $fd) {
+    Logs::log("Local Server: Close\n");
 });
 
 //启动服务器
-$server->start();
+$local_server->start();

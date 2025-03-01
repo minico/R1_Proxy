@@ -2,8 +2,7 @@
 namespace App\Provider\Music;
 use App\Util\Logs;
 
-class NasMedia
-{
+class NasMedia {
     private $SPEECH_TEXT_WAKEUP_RESPONSE = "我在";
     private $SPEECH_TEXT_FAILED_RECOGNIZE = "对不起，我没听清。";
     private $SPEECH_TEXT_PLAY = "播放";
@@ -27,24 +26,23 @@ class NasMedia
     private $media_list = array();
     private $favorite_list = array();
     private $history_list = array(); // 用于保存序列故事，以便下次顺序播放
+    //private $last_name = ""; // 用于保存序列故事
+    //private $last_seq = "";  // 用于保存序列故事
     private $current_audio = "";
     private $playing_favorite = false;
     private $playing_series = false;
 
-    public function __construct()
-    {
+    public function __construct() {
         $this->loadPlayList();
         $this->loadHistory();
         $this->loadFavorite();
     }
 
-    private function getRootPath()
-    {
+    private function getRootPath() {
         return dirname(__FILE__) . "/../../../";
     }
 
-    private function cleanString($str)
-    {
+    private function cleanString($str) {
         Logs::log("cleanString:" . $str);
         //中文标点
         $char = "，。、！？：；﹑•＂…‘’“”〝〞∕¦‖—　〈〉﹞﹝「」‹›〖〗】【»«』『〕〔》《﹐¸﹕︰﹔！¡？¿﹖﹌﹏﹋＇´ˊˋ―﹫︳︴¯＿￣﹢﹦﹤‐­˜﹟﹩﹠﹪﹡﹨﹍﹉﹎﹊ˇ︵︶︷︸︹︿﹀︺︽︾ˉ﹁﹂﹃﹄︻︼()";
@@ -57,25 +55,21 @@ class NasMedia
         return $str;
     }
 
-    private function getBaseName($file_path)
-    {
+    private function getBaseName($file_path) {
         $file_name = preg_replace('/^.+[\\\\\\/]/', '', $file_path);
         $base_name = str_replace(strrchr($file_name, "."), "", $file_name);
         return $base_name;
     }
 
-    private function urlEncode($item)
-    {
+    private function urlEncode($item) {
         return str_replace(" ", "%20", $item);
     }
 
-    private function isChineseNum($num)
-    {
+    private function isChineseNum($num) {
         return !preg_match('/^[0-9]+$/', $num);
     }
 
-    private function chineseNumToDigits($str)
-    {
+    private function chineseNumToDigits($str) {
         //汉字装换数字的对照表
         $number_map = array('零' => 0, '一' => 1, '二' => 2, '三' => 3, '四' => 4, '五' => 5, '六' => 6, '七' => 7, '八' => 8, '九' => 9);
         $step_map = array('十' => 10, '百' => 100, '千' => 1000);
@@ -123,24 +117,27 @@ class NasMedia
         }
     }
 
-    private function getNameFromItem($item)
-    {
+    private function getNameFromItem($item) {
         Logs::log("getNameFromItem:" . $item);
         $paths = explode("/", $item);
-        if (count($paths) > 1) {
-            $item = $paths[count($paths)-2].$paths[count($paths)-1];
+	$num = count($paths); 
+        if ($num > 1) {//ignore the 1st part of item
+	   for($i=1; $i<$num; ++$i){ 
+             $item = $item . $paths[$i];
+           } 
         }
         Logs::log("getNameFromItem after split path:" . $item);
 
         if (preg_match('/[\x{4e00}-\x{9fa5}]+/u', $item, $matched)) {
             $name = $matched[0];
+            Logs::log("getNameFromItem, matched name:" . $name);
             return $name;
         }
+        Logs::log("getNameFromItem, not found matched");
         return false;
     }
 
-    private function getSeqFromItem($item)
-    {
+    private function getSeqFromItem($item) {
         Logs::log("getSeqFromItem:" . $item);
         $paths = explode("/", $item);
         if (count($paths) > 1) {
@@ -157,55 +154,53 @@ class NasMedia
                 }
             }
         }
-        Logs::log("getSeqFromItem:" . $item . ", no seq found, return false");
+        Logs::log("getSeqFromItem:" . $item . ", not found");
         return false;
     }
 
-    public function loadPlayList()
-    {
+    public function loadPlayList() {
         $this->media_list = array();
         $res = file_get_contents($this->NAS_URL . $this->PLAY_LIST_FILE);
         if ($res) {
             $this->media_list = explode("\n", $res);
             file_put_contents($this->getRootPath() . $this->PLAY_LIST_FILE, $res);
-            Logs::log("play list downloaded successfully, total count:" . count($this->media_list));
+            Logs::log("loadPlayList, list downloaded successfully, total count:" . count($this->media_list));
             return true;
         } else {
             $res = file_get_contents($this->PLAY_LIST_FILE);
             if ($res) {
                 $this->media_list = explode("\n", $res);
-                Logs::log("play list was loaded from local cache, total count:" . count($this->media_list));
+                Logs::log("LoadPlayList, list was loaded from local cache, total count:" . count($this->media_list));
                 return true;
             } else {
-                Logs::log("play list downloading failed.");
+                Logs::log("LoadPlayList download failed.");
                 return false;
             }
         }
     }
 
-    public function loadHistory()
-    {
+    public function loadHistory() {
         $res = file_get_contents($this->getRootPath() . $this->HISTORY_LIST_FILE);
         if ($res) {
             $this->history_list = explode("\n", $res);
-            Logs::log("history list loaded successfully, total count:" . count($this->history_list));
+            Logs::log("loadHistory successfully, total count:" . count($this->history_list));
             return true;
         } else {
-            Logs::log("history list load failed.");
+            Logs::log("loadHistory failed.");
             return false;
         }
     }
 
-    public function saveHistory()
-    {
+    public function saveHistory() {
         file_put_contents($this->getRootPath() . $this->HISTORY_LIST_FILE, implode(PHP_EOL, $this->history_list));
     }
 
-    public function addToHistory($item)
-    {
+    public function addToHistory($item) {
+        Logs::log("addToHistory:" . $item);
         $name = $this->getNameFromItem($item);
         foreach ($this->history_list as $key => $value) {
             if (strstr($value, $name)) {
+                Logs::log("addToHistory, unset:" . $this->history_list[$key]);
                 unset($this->history_list[$key]);
             }
         }
@@ -213,37 +208,33 @@ class NasMedia
         $this->saveHistory();
     }
 
-    public function loadFavorite()
-    {
+    public function loadFavorite() {
         $res = file_get_contents($this->getRootPath() . $this->FAVORITE_LIST_FILE);
         if ($res) {
             $this->favorite_list = explode("\n", $res);
-            Logs::log("favorite list loaded successfully, total count:" . count($this->favorite_list));
+            Logs::log("loadFavorite successfully, total count:" . count($this->favorite_list));
             return true;
         } else {
-            Logs::log("favorte list load failed.");
+            Logs::log("loadFavorte failed.");
             return false;
         }
     }
 
-    public function saveFavorite()
-    {
+    public function saveFavorite() {
         file_put_contents($this->getRootPath() . $this->FAVORITE_LIST_FILE, implode(PHP_EOL, $this->favorite_list));
     }
 
-    public function addFavorite($item)
-    {
-        Logs::log("addFavorite:" . $item);
+    public function addFavorite($item) {
         if (array_search($item, $this->favorite_list) === false) {
             array_push($this->favorite_list, $item);
             $this->saveFavorite();
+            Logs::log("addFavorite:" . $item . " successfully.");
         } else {
-            Logs::log("addFavorite:" . $item . " has been existed");
+            Logs::log("addFavorite:" . $item . " has been existed already.");
         }
     }
 
-    public function removeFavorite($item)
-    {
+    public function removeFavorite($item) {
         Logs::log("removeFavorite:" . $item);
         foreach (array_keys($this->favorite_list, $item) as $key) {
             unset($array[$key]);
@@ -251,8 +242,7 @@ class NasMedia
         $this->saveFavorite();
     }
 
-    public function getNext()
-    {
+    public function getNext() {
         Logs::log("getNext, current_audio:" . $this->current_audio . " playing_series:" . $this->playing_series . " palying_favorite:" . $this->playing_favorite);
         if ($this->playing_series) {
             $name = $this->getNameFromItem($this->current_audio);
@@ -262,7 +252,9 @@ class NasMedia
             } else {
                 $seq = "";
             }
-            return $this->getItemOfSpecified($name, $seq);
+            $res = $this->getItemOfSpecified($name, $seq);
+            Logs::log("getNext, found series, name:" . $name, " and seq:" . $seq . ", current_audio:" . $this->current_audio . ", play url:" . $res);
+            return $res;
         }
 
         $tmpList = $this->media_list;
@@ -276,14 +268,14 @@ class NasMedia
                 $key = -1;
             }
             $this->current_audio = $tmpList[$key + 1];
-            Logs::log("getNext, return current_audio:" . $this->current_audio);
-            return $this->NAS_URL . $this->urlEncode($this->current_audio);
+            $res = $this->NAS_URL . $this->urlEncode($this->current_audio);
+            Logs::log("getNext, current_audio:" . $this->current_audio . ", play url:" . $res);
+            return $res;
         }
         return false;
     }
 
-    public function getPrevious()
-    {
+    public function getPrevious() {
         Logs::log("getPrevious, current_audio:" . $this->current_audio . " playing_series:" . $this->playing_series . " palying_favorite:" . $this->playing_favorite);
         if ($this->playing_series) {
             $name = $this->getNameFromItem($this->current_audio);
@@ -296,7 +288,9 @@ class NasMedia
             } else {
                 $seq = "";
             }
-            return $this->getItemOfSpecified($name, $seq);
+            $res = $this->getItemOfSpecified($name, $seq);
+            Logs::log("getPrevious, found series, name:" . $name, " and seq:" . $seq . ", current_audio:" . $this->current_audio . ", play url:" . $res);
+            return $res;
         }
 
         $tmpList = $this->media_list;
@@ -309,32 +303,32 @@ class NasMedia
                 $key = count($tmpList);
             }
             $this->current_audio = $tmpList[$key - 1];
-            Logs::log("getPrevious, return current_audio:" . $this->current_audio);
-            return $this->NAS_URL . $this->urlEncode($this->current_audio);
+            $res = $this->NAS_URL . $this->urlEncode($this->current_audio);
+            Logs::log("getPrevious, current_audio:" . $this->current_audio . ", play url:" . $res);
+            return $res;
         }
         return false;
     }
 
-    public function getRandomAudio()
-    {
+    public function getRandomAudio() {
         $this->current_audio = $this->media_list[rand(0, count($this->media_list))];
-        Logs::log("getRandomAudio, current_audio:" . $this->current_audio);
-        return $this->NAS_URL . $this->urlEncode($this->current_audio);
+        $res = $this->NAS_URL . $this->urlEncode($this->current_audio);
+        Logs::log("getRandomAudio, current_audio:" . $this->current_audio . ", play url:" . $res);
+        return $res;
     }
 
-    public function getFirstFavorite()
-    {
+    public function getFirstFavorite() {
         if (count($this->favorite_list) > 0) {
             $this->playing_favorite = true;
             $this->current_audio = $this->favorite_list[0];
-            Logs::log("getFirstFavorite, current_audio:" . $this->current_audio);
-            return $this->NAS_URL . $this->urlEncode($this->current_audio);
+            $res = $this->NAS_URL . $this->urlEncode($this->current_audio);
+            Logs::log("getFirstFavorite, current_audio:" . $this->current_audio . ", play url:" . $res);
+            return $res; 
         }
         return false;
     }
 
-    private function getItemOfSinger($singer)
-    {
+    private function getItemOfSinger($singer) {
         Logs::log("getItemOfSinger:" . $singer . "media list count:" . count($this->media_list));
         $singerList = array();
         foreach ($this->media_list as $item) {
@@ -346,22 +340,22 @@ class NasMedia
 
         if (count($singerList) > 0) {
             $this->current_audio = $singerList[rand(0, count($singerList) - 1)];
-            Logs::log("getItemOfSinger found:" . $this->current_audio);
-            return $this->NAS_URL . $this->urlEncode($this->current_audio);
+            $res = $this->NAS_URL . $this->urlEncode($this->current_audio);
+            Logs::log("getItemOfSinger found:" . $this->current_audio . " play url:" . $res);
+            return $res;
         }
 
         Logs::log("getItemOfSinger, no item found");
         return false;
     }
 
-    private function getItemOfSpecified($name, $seq)
-    {
-        Logs::log("getItemOfSpecified, name:" . $name . " seq:" . $seq);
+    private function getItemOfSpecified($name, $seq) {
+        Logs::log("getItemOfSpecified by name:" . $name . " and seq:" . $seq);
         foreach ($this->history_list as $item) {
             if (empty($seq) && !empty($name) && strstr($item, $name)) {
-                Logs::log("getItemOfSpecified, found in history");
                 $name = $this->getNameFromItem($item);
                 $seq = $this->getSeqFromItem($item);
+                Logs::log("getItemOfSpecified, found in history");
                 if ($seq !== false) {
                     $seq += 1;
                 } else {
@@ -375,11 +369,13 @@ class NasMedia
         foreach ($this->media_list as $item) {
             if (preg_match('#(.*)' . $name . '(.*)0*' . $seq . '(.*)mp3#isuU', $item, $matched)) {
                 $this->current_audio = $item;
-                Logs::log("found item:" . $item);
+                Logs::log("getItemOfSpecified, found item:" . $item);
                 if ($seq !== false) {
                     $this->playing_series = true;
                 }
-                return $this->NAS_URL . $this->urlEncode($this->current_audio);
+                $res = $this->NAS_URL . $this->urlEncode($this->current_audio);
+                Logs::log("getItemOfSpecified found,current audio:" . $this->current_audio . " play url:" . $res);
+                return $res;
             }
         }
         Logs::log("getItemOfSpecified, no item found");
@@ -389,34 +385,36 @@ class NasMedia
     private function generatePlayList() {
         Logs::log("generatePlayList, current_audio:" . $this->current_audio);
         if (empty($this->current_audio)) {
+            Logs::log("generatePlayList, return false");
             return false;
         }
 
         $play_list = array();
         $i = 0;
         if (($key = array_search($this->current_audio, ($this->media_list))) != NULL) {
-            while ($i < 20) {
-                $idx = $key + $i++;
+            while ($i++ < 10) {
+                $idx = $key + $i;
                 if ($idx < count($this->media_list)) {
                     array_push($play_list, $this->media_list[$idx]);
-                    Logs::log("generatePlayList, add:" . $this->media_list[$idx]);
+                    Logs::log("generatePlayList, add item:" . $this->media_list[$idx]);
                 }
             }
-		}
-
+        }
         return $play_list;
     }
 
-    public function getMatchedAudio($asr_result)
-    {
+    public function getMatchedAudio($asr_result) {
         $name = "";
         $seq = "";
+        $res = false;
         $specified_singer = false;
+
         $this->playing_favorite = false;
         $this->playing_series = false;
         $this->current_audio = "";
 
         Logs::log("getMatchedAudio prepare to find match text:" . $asr_result);
+
         if (preg_match('#(.+)第(.*)集$#isuU', $asr_result, $matched)) {
             $name = $matched[1];
             $seq = $matched[2];
@@ -424,31 +422,36 @@ class NasMedia
                 $seq = $this->chineseNumToDigits($seq);
             }
             $playing_series = true;
+            Logs::log("getMatchedAudio match series mode1, name:" . $name . ", seq:" . $seq);
         } else if (preg_match('#([\x{4e00}-\x{9fa5}]+)([0-9]+)#isu', $asr_result, $matched)) {
             $name = $matched[1];
             $seq = $matched[2];
             $playing_series = true;
+            Logs::log("getMatchedAudio match series mode2, name:" . $name . ", seq:" . $seq);
         } else if (preg_match('#(.*)的歌$#isuU', $asr_result, $matched)) {
             $specified_singer = true;
             $name = $matched[1];
+            Logs::log("getMatchedAudio match singer mode, name:" . $name);
         } else if (preg_match('#(.*)$#isuU', $asr_result, $matched)) {
             $name = $matched[1];
+            Logs::log("getMatchedAudio match name:" . $name);
         }
 
         Logs::log("getMatchedAudio prepare to find match name:" . $name . " specified_singer:" . $specified_singer . " seq:" . $seq);
 
         if ($specified_singer) {
-            return $this->getItemOfSinger($name);
+            $res = $this->getItemOfSinger($name);
+            Logs::log("getMatchedAudio, got matched singer play url:" . $res);
         } else {
-            return $this->getItemOfSpecified($name, $seq);
+            $res = $this->getItemOfSpecified($name, $seq);
+            Logs::log("getMatchedAudio, got matched play url:" . $res);
         }
 
-        Logs::log("not found");
-        return false;
+        Logs::log("getMatchedAudio, no match found");
+        return $res;
     }
 
-    public function processPlayCommand($asr_result, $format)
-    {
+    public function processPlayCommand($asr_result, $format) {
         $asr_result = $this->cleanString($asr_result);
         Logs::log("processPlayCommand:" . $asr_result);
         $res = false;
@@ -470,11 +473,11 @@ class NasMedia
             $this->addToHistory($this->current_audio);
         }
 
+        Logs::log("processPlayCommand done:" . $asr_result . ", process result:" . $res);
         return $res;
     }
 
-    public function processCtrlCommand($asr_result, $format)
-    {
+    public function processCtrlCommand($asr_result, $format) {
         $res = true;
         $asr_result = $this->cleanString($asr_result);
         Logs::log("processCtrlCommand:" . $asr_result); 
@@ -512,13 +515,11 @@ class NasMedia
         return $res;
     }
 
-    public function speak($text)
-    {
+    public function speak($text) {
 
     }
 
-    private function setSemanticFormat($format)
-    {
+    private function setSemanticFormat($format) {
         Logs::log("setSemanticFormat, current_audio:" . $this->current_audio);
         if (empty($this->current_audio)) {
             return $format;
@@ -529,7 +530,6 @@ class NasMedia
         if ($play_list !== false) {
             foreach ($play_list as $audio_item) {
                 $name = $this->getNameFromItem($audio_item);
-                $seq = $this->getSeqFromItem($audio_item);
         
                 $item = new Item();
                 $item->setAlbum("");
@@ -540,21 +540,23 @@ class NasMedia
                 $item->setLyric("");
                 $item->setIsCollected(false);
                 $item->setUrl($this->NAS_URL . $this->urlEncode($audio_item));
-        
                 $musiclist->addItem($item);
+
+                Logs::log("setSemanticFormat, add play url:" . $this->NAS_URL . $this->urlEncode($audio_item));
             }
             
             $format->setPageSize(1);
             $format->setTotal(count($play_list));
             $format->setDataList($musiclist);
             $format->setText($name)->setAsrText($name);
+            Logs::log("setSemanticFormat, count of play list item:" . count($play_list));
         }
 
         return $format;
     }
 }
 
-echo ("pass" . PHP_EOL);
+echo ("NasMedia loaded" . PHP_EOL);
 
 /*
 $nas = new NasMedia();
