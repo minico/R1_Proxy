@@ -392,8 +392,8 @@ class NasMedia {
         $play_list = array();
         $i = 0;
         if (($key = array_search($this->current_audio, ($this->media_list))) != NULL) {
-            while ($i++ < 10) {
-                $idx = $key + $i;
+            while ($i < 10) {
+                $idx = $key + $i++;
                 if ($idx < count($this->media_list)) {
                     array_push($play_list, $this->media_list[$idx]);
                     Logs::log("generatePlayList, add item:" . $this->media_list[$idx]);
