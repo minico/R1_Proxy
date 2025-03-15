@@ -68,25 +68,6 @@ class MusicProvider {
         return false;
     }
 
-    public function processNasCmd() {
-        $body = $this->dataUtil->getBody();
-        if (!isset($body['semantic'])) {
-            //Logs::log("processNasCmd, has no semantic body");
-            //print_r($body);
-            //$this->dataUtil->generateCodeBody();
-            return false;
-        }
-
-        $format = new Format();
-        $format->setSemantic($body['semantic']);
-
-        $res = $this->nasMedia->processCtrlCommand($body['text'], $format);
-        if ($res) {
-            //$this->dataUtil->setBody($format->getData());
-        }
-        return $res;
-    }
-
     public function searchNasMedia() {
         $body = $this->dataUtil->getBody();
         if (!isset($body['semantic'])) {

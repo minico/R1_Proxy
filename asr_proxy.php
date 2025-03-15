@@ -7,6 +7,7 @@
  */
 
 use App\Provider\MusicProvider;
+use App\Provider\AudioProvider;
 use App\Util\Logs;
 use Swoole\Coroutine\Client;
 
@@ -22,6 +23,7 @@ for($i = 0; $i < $argc; $i++) {
 }
 
 $musicProvider = new MusicProvider();
+$audioProvider = new AudioProvider();
 
 if ($argc > 1) {
    echo "Please input test command\n>";
@@ -75,22 +77,20 @@ function connectAsrServer($local_server, $fd, $data) {
     //Logs::log("<<<<<< recv data from asr server:\n" .$recv);
 
     global $musicProvider;
+    global $audioProvider;
     $musicProvider->onRecvData($recv);
+    $audioProvider->onRecvData($recv);
 
-    if (!$musicProvider->processNasCmd()) {
+    if (!$audioProvider->processNasCmd() && !$audioProvider->processChatgpt()) {
         if (!$musicProvider->searchNasMedia()) {
             if ($musicProvider->isMusic()) {
                 $musicProvider->search();
             }
         }
+    	$data = $musicProvider->buildData();
+    } else {
+    	$data = $audioProvider->buildData();
     }
-
-    /*
-    if ($musicProvider->isMusic()) {
-      $musicProvider->search();
-    }*/
-
-    $data = $musicProvider->buildData();
 
     //Logs::log(">>>>>>>> forward data to XiaoXun:\n" . $data);
 

@@ -480,43 +480,50 @@ class NasMedia {
     public function processCtrlCommand($asr_result, $format) {
         $res = true;
         $asr_result = $this->cleanString($asr_result);
+        $format->setAsrResult($asr_result);
         Logs::log("processCtrlCommand:" . $asr_result); 
         if (preg_match("#(.*)" . $this->SPEECH_TEXT_REPEAT_WHAT_YOU_SAID . "(.*)#isuU", $asr_result, $matched)) {
-            $this->speak($matched[2]);
+            Logs::log("processCtrlCommand:" . $this->SPEECH_TEXT_REPEAT_WHAT_YOU_SAID . $matched[0] . "-" . $matched[2]); 
+            $this->speak($format, mb_substr($asr_result, 2));
         } else if (preg_match("#(.*)" . $this->SPEECH_TEXT_REMOVE_FAVORITE . "(.*)#isuU", $asr_result, $matched)) {
             if (!empty($this->current_audio)) {
+                Logs::log("processCtrlCommand:取消收藏成功"); 
                 $this->removeFavorite($this->current_audio);
-                $this->speak("取消收藏成功。");
+                $this->speak($format, "取消收藏成功。");
             } else {
-                $this->speak("当前没有播放曲目哦。");
+                Logs::log("processCtrlCommand:当前没有播放曲目哦"); 
+                $this->speak("$format, 当前没有播放曲目哦。");
             }
         } else if (preg_match("#^" . $this->SPEECH_TEXT_ADD_FAVORITE . "(.*)#isuU", $asr_result, $matched)) {
             if (!empty($this->current_audio)) {
                 $this->addFavorite($this->current_audio);
-                $this->speak("收藏成功。");
+                $this->speak($format, "收藏成功。");
+                Logs::log("processCtrlCommand:收藏"); 
             } else {
-                $this->speak("当前没有播放曲目哦。");
+                $this->speak("$format, 当前没有播放曲目哦。");
+                Logs::log("processCtrlCommand:当前没有播放曲目"); 
             }
         } else if (preg_match("#(.*)" . $this->SPEECH_TEXT_UPDATE_LIST . "(.*)#isuU", $asr_result, $matched)) {
+            Logs::log("processCtrlCommand:updatePlayList"); 
             $this->updatePlayList();
         } else if (preg_match("#(.*)" . $this->SPEECH_TEXT_LIST_COMMANDS . "(.*)#isuU", $asr_result, $matched)) {
-            $this->speak("我目前支持以下命令：");
-            $this->speak(R1Configuration . SPEECH_TEXT_PLAY_RANDOM . "，");
-            $this->speak(R1Configuration . SPEECH_TEXT_ADD_FAVORITE . "，");
-            $this->speak(R1Configuration . SPEECH_TEXT_REMOVE_FAVORITE . "，");
-            $this->speak(R1Configuration . SPEECH_TEXT_PLAY_PREVIOUS . "，");
-            $this->speak(R1Configuration . SPEECH_TEXT_PLAY_NEXT . "，");
-            $this->speak(R1Configuration . SPEECH_TEXT_REPEAT_WHAT_YOU_SAID . "，");
-            $this->speak(R1Configuration . SPEECH_TEXT_UPDATE_LIST . "，");
-            $this->speak(R1Configuration . SPEECH_TEXT_LIST_COMMANDS . "，");
+            $this->speak($format, "我目前支持以下命令：" . 
+            $this->SPEECH_TEXT_PLAY_RANDOM . ";" .
+            $this->SPEECH_TEXT_ADD_FAVORITE . ";" .
+            $this->SPEECH_TEXT_REMOVE_FAVORITE . ";" .
+            $this->SPEECH_TEXT_PLAY_PREVIOUS . ";" .
+            $this->SPEECH_TEXT_PLAY_NEXT . ";" .
+            $this->SPEECH_TEXT_REPEAT_WHAT_YOU_SAID . ";" .
+            $this->SPEECH_TEXT_UPDATE_LIST . "。" .
+            $this->SPEECH_TEXT_LIST_COMMANDS . "。");
         } else {
             $res = false;
         }
         return $res;
     }
 
-    public function speak($text) {
-
+    public function speak($format, $text) {
+        $format->setAnswer($text);
     }
 
     private function setSemanticFormat($format) {
