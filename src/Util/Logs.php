@@ -11,12 +11,13 @@ class Logs
     {
         echo "set log path:" . $path . PHP_EOL;
         self::$log_path = $path;
+        date_default_timezone_set('Asia/Shanghai');
     }
 
     public static function log($str)
     {
         $date = new DateTime();
-        $date = $date->format("m-d h:i:s.u");
+        $date = $date->format("m-d H:i:s.u");
         $date = substr($date, 0, -3); // 毫秒只保留三位
         $str = "[" . $date . "] " . $str . PHP_EOL;
 

@@ -104,7 +104,7 @@ class AudioProvider {
    }
 
    public function chatgpt() {
-        $apiKey = "xxxx"
+        $apiKey = "xxxx";
         $endpoint  = 'https://api.openai.com/v1/chat/completions';
 
 	$question = "hello";
