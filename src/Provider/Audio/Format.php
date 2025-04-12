@@ -11,7 +11,11 @@ class Format
 	  "general": {
 	  	"quitDialog": "true",
 	  	"actionAble": "true",
+        "style": "joke",
 	  	"type": "T",
+        "title": "如此爸爸",
+        "audio": "http://192.168.1.3:8000/output.mp3",
+        "url": "http://192.168.1.4:8000/output.mp3",
 	  	"text": "哎呦，今天我有点头疼，亲爱的，你没事吧？...."
 	  },
 	  "responseId": "7ae07b2dd9654e92bcf9d3e6175c893c",
@@ -34,6 +38,12 @@ class Format
 
     public function setAnswer($answer) {
         $this->data['general']['text'] = $answer;
+        return $this;
+    }
+
+    public function setTtsUrl($ttsUrl) {
+        $this->data['general']['audio'] = $ttsUrl;
+        $this->data['general']['url'] = $ttsUrl;
         return $this;
     }
 
