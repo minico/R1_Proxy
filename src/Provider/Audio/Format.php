@@ -11,12 +11,12 @@ class Format
 	  "general": {
 	  	"quitDialog": "true",
 	  	"actionAble": "true",
-        "style": "joke",
+        "style": "chat",
 	  	"type": "T",
-        "title": "如此爸爸",
+        "title": "Chat...",
         "audio": "http://192.168.1.3:8000/output.mp3",
         "url": "http://192.168.1.4:8000/output.mp3",
-	  	"text": "哎呦，今天我有点头疼，亲爱的，你没事吧？...."
+	  	"text": "sample text...."
 	  },
 	  "responseId": "7ae07b2dd9654e92bcf9d3e6175c893c",
 	  "history": "cn.yunzhisheng.chat",

@@ -92,7 +92,8 @@ class AudioProvider {
 
      if ($response) {
        $decodedResponse = json_decode($response, true);
-       $answer = "来自chat gpt的回答：" . $decodedResponse['choices'][0]['message']['content'];
+       //$answer = "来自chat gpt的回答：" . $decodedResponse['choices'][0]['message']['content'];
+       $answer = $decodedResponse['choices'][0]['message']['content'];
        Logs::log("[AudioProvider] requestChatgpt reply:" . $answer);
        $format->setAnswer($answer)->setAsrResult($asr_result);
        //$format->setTtsUrl("http://192.168.1.3:8000/output.mp3");
@@ -116,7 +117,7 @@ class AudioProvider {
     $endpoint = 'https://eastasia.tts.speech.microsoft.com/cognitiveservices/v1';
 
     // 你的Azure语音服务订阅密钥
-    $subscriptionKey = file_get_contents('azure.key')
+    $subscriptionKey = file_get_contents('azure.key');
 
     // 要合成的文本
     // 设置请求头
