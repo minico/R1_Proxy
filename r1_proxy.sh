@@ -10,6 +10,7 @@
 ### END INIT INFO
 
 #此处编写脚本内容
-cd /home/ivan/R1_Proxy
+sudo http_server -p 82 /home/admin/www &
+cd /home/admin/R1_Proxy
 sudo php ./asr_proxy.php &
 exit 0
