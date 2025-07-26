@@ -46,7 +46,7 @@ if ($argc > 1) {
    exit();
 }
 
-$local_server = new Swoole\Server('0.0.0.0', 80);
+$local_server = new Swoole\Server('0.0.0.0', 81);
 
 function connectAsrServer($local_server, $fd, $data) {
     //Logs::log("Local Server: Receive data from XiaoXun, forward it to asr server.\n");

@@ -8,11 +8,11 @@ include_once "./vendor/autoload.php";
 setlocale(LC_ALL, 'zh_CN.GBK');
 Logs::setLogPath(dirname(__FILE__) . "/logs.log");
 
-Logs::log("Http server listened on port 8000");
-$http_server = new Swoole\Http\Server('0.0.0.0', 8000);
+Logs::log("Http server listened on port 82");
+$http_server = new Swoole\Http\Server('0.0.0.0', 82);
 
 // 指定文件夹路径
-$documentRoot = "./";
+$documentRoot = "../www";
 
 // 监听请求事件
 $http_server->on('request', function (Request $request, Response $response) use ($documentRoot) {
