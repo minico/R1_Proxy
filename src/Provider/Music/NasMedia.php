@@ -18,7 +18,7 @@ class NasMedia {
     private $SPEECH_TEXT_NOT_FOUND = "抱歉，没有找到";
 
     #这里依赖 php 的 http server，所以要先启动 http_svr.php
-    private $NAS_URL = "http://192.168.1.4:82/";
+    private $NAS_URL = "http://192.168.1.4:82/music/";
     //private $NAS_URL = "http://10.0.0.4:8888/music/";
     private $PLAY_LIST_FILE = "play_list.txt";
     private $HISTORY_LIST_FILE = "history_list.txt";
